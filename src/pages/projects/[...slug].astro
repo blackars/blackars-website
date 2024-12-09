@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BasicLayout from "../../layouts/BasicLayout.astro";
+
+const { slug } = Astro.params;
+
+if (slug === undefined) {
+  throw new Error("slug is missing");
+}
+
+const projects = (await getCollection("project")).sort(
+  (projectEntryA, projectEntryB) =>
+    projectEntryB.data.pubDate.getTime() - projectEntryA.data.pubDate.getTime()
+);
+
+const entry = projects.find((entry) => entry.slug === slug);
+
+if (!entry) {
+  return Astro.redirect("/404");
+}
+
+const { Content } = await entry.render();
+---
+
+<BasicLayout>
+  <Content />
+</BasicLayout>

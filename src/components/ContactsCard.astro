@@ -1,0 +1,42 @@
+---
+import Card from "./Card/index.astro";
+import { LINKS } from "../lib/constants";
+import { Icon } from 'astro-icon/components';
+
+
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-2">
+  <div class="h-full ">
+    <header >
+      <h3 class="text-white text-lg font-bold">
+        Contact & Social M.
+      </h3>
+    </header>
+    <address class="flex flex-col mt-1">
+      <p class="text-center mb-0">blackars313@gmail.com</p>
+    </address>
+    <div class="flex justify-center max-w-full mt-2"> <!-- Modificación aquí -->
+      <a href={LINKS.github} target="_blank">
+        <Icon title="Github" name="ri:github-fill" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      <a href={LINKS.linkedin} target="_blank">
+        <Icon title="Linkedin" name="ri:linkedin-fill" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      <a href={LINKS.twitter} target="_blank">
+        <Icon title="Twitter" name="ri:twitter-x-fill" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      <a href={LINKS.discord} target="_blank">
+        <Icon title="Discord" name="ri:discord-fill" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      <a href={LINKS.kaggle} target="_blank">
+        <Icon title="Kaggle" name="Kaggle" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      <a href={LINKS.instagram} target="_blank">
+        <Icon title="Instagram" name="ri:instagram-fill" style="font-size: 30px;" class="pb-1 active:translate-x-[3px] active:translate-y-[3px] hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-115 cursor-pointer m-1" />
+      </a>
+      
+    </div>
+  </div>
+</Card>
+

@@ -1,0 +1,16 @@
+
+
+.card-scrollbar::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+  
+  .card-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #2b2b2c00;
+    border-radius: 5px;
+  }
+  
+  .card-scrollbar::-webkit-scrollbar-track {
+    background-color: #51555b00;
+  }
+  

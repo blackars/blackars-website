@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import PjContent from "../../components/Projects/PjContent.astro";
+
+const projects = (await getCollection("project")).sort(
+  (projectEntryA, projectEntryB) =>{
+    const dateA = projectEntryA.data.pubDate ? projectEntryA.data.pubDate.getTime() : 0;
+    const dateB = projectEntryB.data.pubDate ? projectEntryB.data.pubDate.getTime() : 0;
+    return dateB - dateA;
+  }
+);
+---
+
+<script>
+  import { timeline, type TimelineDefinition } from "motion";
+  import { loaderAnimation } from "../../lib/constants";
+
+  const sequence = [loaderAnimation];
+
+  timeline(sequence as TimelineDefinition);
+</script>
+
+<Layout
+  title="Andres Mesa - Projects"
+  description="Creative Coder"
+>
+  <main
+    class="w-screen h-screen flex flex-col justify-start items-start 
+    max-w-3xl mx-auto p-8"
+  >
+    <a
+      href="../"
+      class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2
+       mb-8 border-0 border-solid border-white rounded-none"
+      >Back</a
+    >
+    <h1 class="text-4xl font-bold mb-4 text-neutral-100">Projects</h1>
+    <ul class="w-full">
+      {
+        projects.map((project) => (
+          <PjContent
+            title={project.data.title}
+            date={project.data.pubDate ?? new Date(0)}
+            url={project.slug}
+          />
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

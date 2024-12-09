@@ -1,0 +1,24 @@
+---
+let isHovered = false;
+
+function toggleHover() {
+  isHovered = !isHovered;
+}
+---
+
+<img
+  width="300"
+  height="300"
+  src={isHovered ? "me2.webp" : "me.webp"}
+  alt="Imagen"
+  class="transform transition duration-500 hover:rotate-y-180 w-auto max-h-[300px] absolute right-[-110px] bottom-[-20px] z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto "
+  onmouseover="toggleHover()"
+  onmouseout="toggleHover()"
+/>
+
+<style>
+  img:hover {
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+  }
+</style>

@@ -1,0 +1,42 @@
+---
+import Content from "./Content.astro";
+import "./Scrollbar.css";
+
+
+interface Props {
+  title?: string;
+  body?: string;
+  colSpan?: string;
+  rowSpan?: string;
+  href?: string;
+  colorText?: string;
+}
+
+const { title, body, colSpan, rowSpan, href, colorText } = Astro.props;
+---
+
+<div
+class={`overflow-hidden m-0 card group overflow-y-auto overflow-scrolling-touch card-scrollbar 
+transfor-y-[-40%] bg-neutral-950/75 shadow-lg p-2 border border-darkslate-100 
+hover:border-white align-start flex-none justify-start relative transform 
+perspective-1ss200 w-full transition duration-75 ease-in-out col-span-1 h-auto 
+transform ${
+  colSpan || "md:col-span-2"
+  } ${rowSpan || ""}`},
+  
+>
+  {
+    href ? (
+      <a href={href} class={`h-full w-full ${colorText || " "}`}>
+        
+        <Content title={title} body={body}>
+          <slot />
+        </Content>
+      </a>
+    ) : (
+      <Content title={title} body={body}>
+        <slot />
+      </Content>
+    )
+  }
+</div>

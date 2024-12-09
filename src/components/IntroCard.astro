@@ -1,0 +1,41 @@
+---
+import Card from "./Card/index.astro";
+import Button from "./Button.astro";
+import { LINKS } from "../lib/constants";
+import { Icon } from 'astro-icon/components'
+import BackgroundMusic from "./BackgroundMusic/BackgroundMusic.astro";
+import ImgCoin from "./ImgCoin.astro";
+---
+
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-3">
+  <div class="flex w-full h-full">
+    <div class="flex flex-col justify-between md:max-h-[300px] gap-4">
+      <div class="flex flex-col h-full pt-1 pl-1">
+        <h5 class="text-xl font-light m-1 pb-1 mx-4 text-gray-400"> >Welcome</h5>
+        <p class="font-light gap-1 text-15px mb-0">
+          Hi, I'm <b class="text-base">Andres Mesa</b>, a creative developer with 
+          a strong focus on backend development and data research, I leverage the power 
+          of technology to drive innovation and efficiency into seamless digital experiences to bring accurate solutions.
+        </p>
+      </div>
+      <div class="flex gap-3 -p-3 pl-2">
+        <a href={LINKS.github} aria-label="github profile" target="_blank">
+          <Button aria-label="github profile">
+            <Icon title="Github" name="ri:github-fill" class="h-6 w-6" />
+            <span class="sr-only">GitHub Profile</span>
+          </Button>
+        </a>
+        <a href={LINKS.linkedin} aria-label="linkedin profile" target="_blank">
+          <Button aria-label="linkedin profile">
+            <Icon title="Linkedin" name="ri:linkedin-box-fill" class="h-6 w-6" />
+            <span  class="sr-only">Linkedin Profile</span>
+          </Button>
+        </a>
+        
+        <BackgroundMusic />
+
+      </div>
+    </div>
+<ImgCoin />
+  </div>
+</Card>

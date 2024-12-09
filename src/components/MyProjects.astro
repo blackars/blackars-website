@@ -1,0 +1,46 @@
+---
+import Card from "../components/Card/index.astro";
+import Modal from "./Modal.astro";
+
+const projects = await Astro.glob('/src/content/project/*.md');
+---
+
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-8" title="My Projects">
+  {projects.map((project) => (
+    <div class="relative md:flex md:flex-col md:gap-2" data-id={project.frontmatter.id}>
+      <h3 class="font-bold m-0 pt-0 mb-0">{project.frontmatter.title}</h3>
+      <p class="my-0 font-light text-sm">{project.frontmatter.description}</p>
+      
+      {project.frontmatter.image && (
+        <img 
+          src={project.frontmatter.image}
+          class="w-full h-auto max-h-[300px] select-none md:w-auto md:max-h-[300px] md:relative md:opacity-100 pointer-events-none"
+        />
+      )}
+      
+      <Modal id={`dialog-${project.frontmatter.id}`}>
+        <main slot="main">
+          <div>
+            <h1 class="text-center font-bold text-xl m-5 z-20">
+              {project.frontmatter.title}
+            </h1>
+          </div>
+          <div>
+            <p class="m-3 text-base">{project.frontmatter.description}</p>
+            <p class="m-2 text-base">{project.frontmatter.abstract}</p>
+            <img 
+              src={project.frontmatter.image}
+              class="w-auto h-auto max-h-[300px] mx-auto p-2 select-none md:static pointer-events-none"
+            />
+          </div>
+          <p class="p-2 text-center text-base">
+            <a href={`/projects/${project.frontmatter.slug}`}>See full project</a>           
+          </p>
+        </main>
+      </Modal>
+    </div>
+  ))}
+  <p class="p-2 text-center font-extrabold text-base">
+    <a href="/projects">See all projects</a>           
+  </p>
+</Card>

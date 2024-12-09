@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card/index.astro"
+---
+
+<script>
+  import { timeline, type TimelineDefinition } from "motion";
+  import { loaderAnimation } from "../../lib/constants";
+
+  const sequence = [loaderAnimation];
+
+  timeline(sequence as TimelineDefinition);
+</script>
+
+<Layout title="Coming Soon">
+    <a href="../">
+      <div class="flex flex-col mt-1 gap-2">
+        <h1 class="text-4xl font-bold mb-4 text-center text-neutral-100">Coming Soon...</h1>
+      </div>
+    </a>
+</Layout>
