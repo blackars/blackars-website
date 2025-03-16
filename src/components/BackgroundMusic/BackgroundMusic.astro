@@ -4,14 +4,26 @@ import { Icon } from "astro-icon/components";
 
 component: "BackgroundMusic"
 ---
-<Button id="toggleButton" onclick="toggleAudio()">
-
+<Button id="toggleButton">
     <Icon title="ON/OFF Music" name="ri:music-fill" class="h-6 w-6"/>
-
 </Button>
+
 <audio id="backgroundMusic" autoplay loop>
-    <source src="src/components/BackgroundMusic/sci-fi-music-loop-01-57623.mp3" type="audio/mp3">
+    <source src="/bgmusic.mp3" type="audio/mp3">
     Tu navegador no admite audio HTML5.
 </audio>
 
-<script src="./backgroundMusic.js"></script>
+<script>
+    const audio = document.getElementById('backgroundMusic');
+    const toggleButton = document.getElementById('toggleButton');
+
+    function toggleAudio() {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+
+    toggleButton.addEventListener('click', toggleAudio);
+</script>
