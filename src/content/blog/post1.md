@@ -7,8 +7,6 @@ category: "Research"
 id: "1"
 ---
 
-# Marco Teórico: La motivación en los tópicos trabajados.
-
 Términos a tratar: Inteligencia artificial - el momento, Educación - la necesidad, Producción artística - con lo que se relacionan.
 
 No es completamente ajeno todo el desarrollo y entendimientos en materia de tecnología a los entramados del mundo del arte.  La vanguardia tecnológica en muchos momentos de la historia ha resultado mediando la producción artística y muchos otros procesos del arte que no solo se restringe al desarrollo y producción de obra sino a su vez también a los mecanismos con los que se investiga, desde los que se piensa, las posibilidades de producción artística y las preguntas problema, o directamente los problemas a los que señalan los tópicos de los artistas. Con esto en consideración me dispongo a abordar un proyecto cuya metodología experimental le mantiene entre los enfoques y procesos de una a/r/tografía y/o investigación-creación. Esto a través de las herramientas que dispone una práctica pedagógica con la que se pretende promover la alfabetización en nociones que introduzcan herramientas de desarrollo con y en tecnologías, con el objetivo de que la experiencia me permite construir una posición desde la académica, específicamente, desde la Lic. en Artes Visuales en Univalle en el periodo de tiempo que me correspondió y desde donde pueda mirar en retrospectiva y al panorama y así darle una nueva perspectiva para que en esta postura académica se sienten las bases de un primer entendimiento de corte investigativo capaz de dar luces a futuras generaciones en las que ya recaerá mayor responsabilidad de explorar posibilidades artísticas que sirvan de posturas ante el  fenómeno de la tecnología en relación a las artes. 
