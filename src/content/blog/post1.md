@@ -6,6 +6,7 @@ pubDate: 2024-06-06
 category: "Research"
 id: "1"
 ---
+Este escrito corresponde al marco teórico del documento del trabajo de grado titulado: _A/R/TOGRAFÍA ENTRE LAS FRONTERAS DEL ARTE Y LAS CIENCIAS DE LA COMPUTACIÓN:EL PLANTEAMIENTO DE UN ENFOQUE DE INVESTIGACION Y CREACION SOBRE LAS TECNOLOGÍAS DESDE LA LIC. EN ARTES VISUALES DE LA UNIVERSIDAD DEL VALLE_ (2024), un componente clave para establecer las relaciones entre las materias que fueron tratadas en este trabajo con un fuerte enfoque hacia la investigación-creación y demarcado por la exploración de las formas en las que podemos aprender tecnologías de la mano del arte.
 
 Términos a tratar: Inteligencia artificial - el momento, Educación - la necesidad, Producción artística - con lo que se relacionan.
 
