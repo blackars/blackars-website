@@ -5,6 +5,7 @@ export const LINKS = {
   instagram: "https://www.instagram.com/_blackars/",
   twitter: "https://twitter.com/_arsblack",
   kaggle: "https://www.kaggle.com/blackars",
+  youtube: "https://www.youtube.com/@_blackars",
 };
 
 export const loaderAnimation = [
