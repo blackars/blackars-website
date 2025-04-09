@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "The Fascinating World of Quantum Computing"
+title: "Artificial Mind: Prototype I"
 description: "Exploring the basics, potential, and future of quantum computing."
 abstract: "un pequeño resumen de unas 120 palabras que trata de explicar de forma clara que se trabajo al interior del documento completo que puede ser revisado en el artculo en markdown"
 pubDate: 2024-12-03
