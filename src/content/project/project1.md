@@ -11,18 +11,18 @@ slug: "minibase"
 
 ---
 
-# MiniBase 
-
 Technologies: Python and SQLite, frameworks such as Tkinter, Pandas, and Pillow
 
-## MiniBase v1.0.0: Dynamic Management of Miniature Collectibles with Potential for AI and RPG![home screen](screenshots/home_screen.png)
+**MiniBase v1.0.0: Dynamic Management of Miniature Collectibles with Potential for AI and RPG.**
 
-**[ Here is the project code](https://github.com/blackars/MiniBase)**
-**[ The code of an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
+[home screen](screenshots/home_screen.png)
 
-The project begins with MiniBase, an innovative tool designed for collectors, ,[Ñ;creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
+**[ Here is the project code /](https://github.com/blackars/MiniBase)**
+**[ & here an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
 
-## Project Utility
+The project begins with MiniBase, an innovative tool designed for collectors,creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
+
+**Project Utility**
 
 * Centralized Management: The application allows users to organize and maintain a detailed record of their miniatures, including physical attributes (such as weight, height, and colors) and narrative aspects (such as history and purpose within the user's or character's universe).
 
@@ -34,14 +34,14 @@ The project begins with MiniBase, an innovative tool designed for collectors, ,[
 
 * RPG Dynamism: By integrating lore and metadata, the database can serve as a key resource for Dungeon Masters or storytellers in a variety of role-playing games. Characters can be selected, customized, and used in campaigns, adding a unique level of immersion.
 
-## System Operation
+**System Operation** 
 
 MiniBase is based on an intuitive graphical interface developed with Tkinter, which guides the user through the following main functionalities.
 
 ![home screen empty](screenshots/home_screen_empty.png)
 
 
-### Miniature Creation
+**Miniature Creation**
 
 Users can add new thumbnails to the database, specifying attributes such as name, tags, materials, colors, etc., all in the creation module (creation_module.py).
 
@@ -49,7 +49,7 @@ Users can add new thumbnails to the database, specifying attributes such as name
 ![creation module screen 2](screenshots/creation_module2.3.png)
 ![creation module screen 3](screenshots/creation_module3.2.png)
 
-### Data Importation
+**Data Importation**
 
 The import module (importation_module.py) requires a unified table structure that is provided in the Excel template (template.xlsx) and is the only one currently that supports the MiniBase system for importing data, and from which the first collectibles management was born.
 
@@ -57,20 +57,20 @@ The import module (importation_module.py) requires a unified table structure tha
 ![importation module screen 2](screenshots/importation_module2.png)
 ![importation module screen 3](screenshots/importation_module3.png)
 
-### Data Exportation 
+**Data Exportation** 
 
 The export module (exportation_module.py) allows the entire database to be exported in three standard formats: CSV, JSON, and Excel File. This allows for use on other platforms or tools.
 
 ![exportation module screen 1](screenshots/exportation_module.png)
 
-### Miniature Edition
+**Miniature Edition** 
 
 Once the characters have been entered into the database, you can edit their details again, add missing ones, or replace images from the editing module (edition_module.py).
 
 ![edition module screen](screenshots/edition_module.png)
 ![edition module screen upload images](screenshots/edition_module2.png)
 
-### Miniature Deletion
+**Miniature Deletion**
 
 The deletion module (deletion_module.py) currently only handles deleting the selected thumbnail from the database.
 
@@ -78,13 +78,13 @@ The deletion module (deletion_module.py) currently only handles deleting the sel
 ![deletion module screen 2](screenshots/deletion_module2.png)
 ![deletion module screen 3](screenshots/deletion_module3.png)
 
-### Schema View
+**Schema View**
 
 Schema View Component: The schemaview_module.py allows visualization of the database tables created from the schema.sql file using the initialization module (initialize_db.py). It serves as a review tool to verify how data insertions are being made, the existing tables, and their relationships.
 
 ![schema view module](screenshots/schemaview_module.png)
 
-## Upcoming AI integrations for RPGs
+**Upcoming AI integrations for RPGs**
 
 Although it does not currently include AI models, the project's structure is designed to facilitate the future integration of algorithms that can analyze, enrich, or generate dynamic content based on the thumbnails. The next step in MiniBase's evolution is its integration with AI models to enhance its functionality. Some ideas include:
 
