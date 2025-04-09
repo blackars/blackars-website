@@ -1,7 +1,8 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "MiniBase"
-description: "MiniBase is an innovative tool designed for collectors and miniature creators. Its purpose is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and lore. With an intuitive interface and specialized modules, users can efficiently import, export, edit, and visualize their collections. Additionally, its modular design paves the way for future integrations with AI models, enabling automated lore generation, narrative assistants, and simulations in RPG environments. Interoperability with standard formats facilitates expansion and collaboration. MiniBase is more than just a database—it’s a bridge between traditional organization and the limitless possibilities of modern technology."
+description: "MiniBase is a versatile platform for managing miniatures, with potential for AI and RPG."
+abstract: "MiniBase is an innovative tool designed for collectors and miniature creators. Its purpose is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and lore. With an intuitive interface and specialized modules, users can efficiently import, export, edit, and visualize their collections. Additionally, its modular design paves the way for future integrations with AI models, enabling automated lore generation, narrative assistants, and simulations in RPG environments. Interoperability with standard formats facilitates expansion and collaboration. MiniBase is more than just a database—it’s a bridge between traditional organization and the limitless possibilities of modern technology."
 pubDate: 2025-04-08
 category: "software"
 id: 1
@@ -19,7 +20,7 @@ Technologies: Python and SQLite, frameworks such as Tkinter, Pandas, and Pillow
 **[ Here is the project code](https://github.com/blackars/MiniBase)**
 **[ The code of an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
 
-The project begins with MiniBase, an innovative tool designed for collectors, creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
+The project begins with MiniBase, an innovative tool designed for collectors, ,[Ñ;creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
 
 ## Project Utility
 
