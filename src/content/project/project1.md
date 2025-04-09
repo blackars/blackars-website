@@ -15,10 +15,10 @@ Technologies: Python and SQLite, frameworks such as Tkinter, Pandas, and Pillow
 
 **MiniBase v1.0.0: Dynamic Management of Miniature Collectibles with Potential for AI and RPG.**
 
-[home screen](screenshots/home_screen.png)
+![home screen](screenshots/home_screen.png)
 
-**[ Here is the project code /](https://github.com/blackars/MiniBase)**
-**[ & here an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
+* **[ Here is the project code](https://github.com/blackars/MiniBase)**
+* **[ & here an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
 
 The project begins with MiniBase, an innovative tool designed for collectors,creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
 
