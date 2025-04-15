@@ -4,7 +4,7 @@ title: "BLACKARS"
 description: "this is a post example"
 pubDate: 2025-01-21
 category: "intro"
-image: "/neural.gif"
+image: "neural.gif"
 slug: "projectr"
 ---
 
