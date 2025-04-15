@@ -34,7 +34,7 @@ Some key frames of the experimetal short films. Can you see the full video ![her
 
 * **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
 
-<div>
+<div style="text-align: center;"> 
 
 ![PIECE 3 interactive cube](screenshots/piece3.gif)
 The interactive video projection that moves in the direction of the movement detected by a camera.
