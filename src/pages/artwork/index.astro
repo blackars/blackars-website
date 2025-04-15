@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import WorkRow from "../../components/Artwork/WorkRow.astro";
 
-const works = await Astro.glob('../../content/works/*.md');
+const works = await Astro.glob('../../content/work/*.md');
 
 // Asegurarse de que cada trabajo tenga un slug
 const worksWithSlugs = works.map(work => ({
@@ -12,7 +12,7 @@ const worksWithSlugs = works.map(work => ({
     // Genera un slug desde el nombre del archivo si no existe en el frontmatter
     slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
     // Asegurarse de que la ruta de la imagen sea absoluta
-    image: work.frontmatter.image ? `/images/${work.frontmatter.image}` : null
+    image: work.frontmatter.image ? `/${work.frontmatter.image}` : undefined
   }
 }));
 ---

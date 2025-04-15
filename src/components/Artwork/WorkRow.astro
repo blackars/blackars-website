@@ -28,6 +28,7 @@ const safeDate = date ?? new Date(0);
             alt={title}
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
+            onerror="this.parentElement.innerHTML='<div class=\'absolute inset-0 flex items-center justify-center text-neutral-400\'>No image available</div>'"
           />
         ) : (
           <div class="absolute inset-0 flex items-center justify-center text-neutral-400">
