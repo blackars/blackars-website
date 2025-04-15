@@ -6,30 +6,50 @@ interface Props {
   title?: string;
   date?: Date;
   url: string;
+  image?: string;
+  description?: string;
 }
 
-const { title, date, url } = Astro.props;
+const { title, date, url, image, description } = Astro.props;
 const safeDate = date ?? new Date(0);
-
 ---
 
-<li class="w-full text-neutral-100 hover:text-neutral-400 ease-in-out 
-transition-colors border-b-neutral-400  my-2">
- <Card>
-  <a
-    class="text-sm md:text-base decoration-none flex justify-between"
-    href={`/artwork/${url}`}
-  >
-    <p class="inline-block whitespace-nowrap">
-      {title}
-    </p>
-    <time
-      class="text-right tabular-nums"
-      datetime={safeDate.toISOString()} 
-      data-date={safeDate.toISOString()}
-    >
-      {formatDate(safeDate)}
-    </time>
-  </a>
-</Card>
+<li class="w-full text-neutral-100 hover:text-neutral-400 ease-in-out transition-colors my-4">
+  <Card>
+    <a class="block decoration-none" href={`/artwork/${url}`}>
+      {/* Contenedor de imagen */}
+      <div class="relative w-full pb-[56.25%] bg-neutral-800 mb-4 overflow-hidden">
+        {image ? (
+          <img
+            src={image}
+            alt={title}
+            class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            loading="lazy"
+          />
+        ) : (
+          <div class="absolute inset-0 flex items-center justify-center text-neutral-400">
+            No image available
+          </div>
+        )}
+      </div>
+      
+      <div class="flex justify-between items-start p-4">
+        <div>
+          <h3 class="text-lg font-bold mb-2">{title}</h3>
+          {description && (
+            <p class="text-sm text-neutral-400 line-clamp-2 mb-2">
+              {description}
+            </p>
+          )}
+        </div>
+        <time
+          class="text-right tabular-nums text-sm text-neutral-400"
+          datetime={safeDate.toISOString()} 
+          data-date={safeDate.toISOString()}
+        >
+          {formatDate(safeDate)}
+        </time>
+      </div>
+    </a>
+  </Card>
 </li>
