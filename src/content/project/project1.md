@@ -43,7 +43,7 @@ MiniBase is based on an intuitive graphical interface developed with Tkinter, wh
 
 **Miniature Creation**
 
-Users can add new thumbnails to the database, specifying attributes such as name, tags, materials, colors, etc., all in the creation module (creation_module.py).
+Users can add new miniature to the database, specifying attributes such as name, tags, materials, colors, etc., all in the creation module (creation_module.py).
 
 ![creation module screen 1](screenshots/creation_module1.2.png)
 ![creation module screen 2](screenshots/creation_module2.3.png)
@@ -72,7 +72,7 @@ Once the characters have been entered into the database, you can edit their deta
 
 **Miniature Deletion**
 
-The deletion module (deletion_module.py) currently only handles deleting the selected thumbnail from the database.
+The deletion module (deletion_module.py) currently only handles deleting the selected miniature from the database.
 
 ![deletion module screen 1](screenshots/deletion_module.png)
 ![deletion module screen 2](screenshots/deletion_module2.png)
@@ -86,7 +86,7 @@ Schema View Component: The schemaview_module.py allows visualization of the data
 
 **Upcoming AI integrations for RPGs**
 
-Although it does not currently include AI models, the project's structure is designed to facilitate the future integration of algorithms that can analyze, enrich, or generate dynamic content based on the thumbnails. The next step in MiniBase's evolution is its integration with AI models to enhance its functionality. Some ideas include:
+Although it does not currently include AI models, the project's structure is designed to facilitate the future integration of algorithms that can analyze, enrich, or generate dynamic content based on the characters in miniatures database. The next step in MiniBase's evolution is its integration with AI models to enhance its functionality. Some ideas include:
 
 * Automatic Lore Generation: Using language models, the application could generate unique stories for each gaming table, including attributes, scenes, settings, characters, and much more based on the user's collection.
 
