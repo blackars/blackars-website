@@ -39,5 +39,3 @@ The interactive video projection that moves in the direction of the movement det
 
 
 En esta tres piezas se usan solo algunos de los elementos visuales obtenidos tras el "encriptado creativo" que se hace de los datos-para salbaguardar estos- y experiencias durante la enseñanza de los procesos, todo este material, se fue utilizando entre piezas, experimentando una y otra vez con esas cuestiones esenciales que eran reducidas a conceptos minimos para con ellos crear, esconder entre un lenguaje propio las piezas de un rompecabezas que se contruye poco a poco con cada experimento que me aproxima cada vez mas a herramientas de vangardia para desdibujar los limites entre la praxis artistica y las ciencias de la computacion.
-
-Para 
