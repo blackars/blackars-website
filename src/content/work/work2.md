@@ -4,6 +4,8 @@ title: "BLACKARS"
 description: "this is a post example"
 pubDate: 2025-01-21
 category: "intro"
+image: "/preview.png"
+slug: "projectr"
 ---
 
 
