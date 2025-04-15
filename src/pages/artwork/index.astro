@@ -1,7 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import WorkRow from "../../components/Artwork/WorkRow.astro";
 
-const works = await Astro.glob('../../content/work/*.md');
+const works = await Astro.glob('../../content/works/*.md');
 
 // Asegurarse de que cada trabajo tenga un slug
 const worksWithSlugs = works.map(work => ({
@@ -9,7 +10,9 @@ const worksWithSlugs = works.map(work => ({
   frontmatter: {
     ...work.frontmatter,
     // Genera un slug desde el nombre del archivo si no existe en el frontmatter
-    slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', '')
+    slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
+    // Asegurarse de que la ruta de la imagen sea absoluta
+    image: work.frontmatter.image ? `/images/${work.frontmatter.image}` : null
   }
 }));
 ---
@@ -30,32 +33,17 @@ const worksWithSlugs = works.map(work => ({
       </a>
       <h1 class="text-4xl font-bold mb-8 text-neutral-100">ARTWORK</h1>
       
-      <div class="grid grid-cols-2 gap-8">
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
         {worksWithSlugs.map((work) => (
-          <a href={`/artwork/${work.frontmatter.slug}`} class="group block">
-            <article class="overflow-hidden bg-neutral-900 rounded-none">
-              <div class="relative w-full pb-[56.25%] bg-neutral-800">
-                {work.frontmatter.image && (
-                  <img
-                    src={work.frontmatter.image}
-                    alt={work.frontmatter.title}
-                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    loading="lazy"
-                  />
-                )}
-              </div>
-              <div class="p-4">
-                <h2 class="text-md font-bold text-neutral-100 mb-2">
-                  {work.frontmatter.title}
-                </h2>
-                <p class="text-neutral-400 text-sm">
-                  {work.frontmatter.description}
-                </p>
-              </div>
-            </article>
-          </a>
+          <WorkRow
+            title={work.frontmatter.title}
+            date={work.frontmatter.pubDate}
+            url={work.frontmatter.slug}
+            image={work.frontmatter.image}
+            description={work.frontmatter.description}
+          />
         ))}
-      </div>
+      </ul>
     </div>
   </main>
 </Layout>
