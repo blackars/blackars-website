@@ -4,7 +4,7 @@ title: "MINIATURES AB!"
 description: "this is a post example"
 pubDate: 2023-01-21
 category: "intro"
-image: "rd-td.gif"
+image: "/rd-td.gif"
 slug: "projectr"
 ---
 
