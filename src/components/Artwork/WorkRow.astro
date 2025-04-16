@@ -37,8 +37,6 @@ console.log('WorkRow received props:', {
             alt={title || 'Artwork image'}
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
-            onerror="console.error('Error loading image:', this.src); this.parentElement.innerHTML='<div class=\'absolute inset-0 flex items-center justify-center text-neutral-400\'>No image available</div>'"
-            onload="console.log('Image loaded successfully:', this.src)"
           />
         ) : (
           <div class="absolute inset-0 flex items-center justify-center text-neutral-400">
