@@ -8,16 +8,18 @@ export default defineConfig({
       "./components/**/*.{html,js,ts,jsx,tsx,vue,svelte,astro}",
       "./pages/**/*.{html,js,ts,jsx,tsx,vue,svelte,astro}",
     ],
+    pipeline: {
+      exclude: [
+        'node_modules',
+        '.git',
+        'dist',
+        '.astro',
+        '.vercel',
+        '.output',
+        'public',
+      ],
+    }
   },
-  exclude: [
-    'node_modules',
-    '.git',
-    'dist',
-    '.astro',
-    '.vercel',
-    '.output',
-    'public',
-  ],
   theme: {
     boxShadow: {
       custom: `2px 2px theme('colors.gray.900')`,
