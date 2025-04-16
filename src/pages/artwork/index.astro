@@ -4,18 +4,37 @@ import WorkRow from "../../components/Artwork/WorkRow.astro";
 
 const works = await Astro.glob('../../content/work/*.md');
 
-// Asegurarse de que cada trabajo tenga un slug
-const worksWithSlugs = works.map(work => ({
-  ...work,
-  frontmatter: {
-    ...work.frontmatter,
+// Depuración
+console.log('Works found:', works.length);
+works.forEach(work => {
+  console.log('Work data:', {
     title: work.frontmatter.title,
-    description: work.frontmatter.description,
-    pubDate: work.frontmatter.pubDate,
-    slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
-    image: work.frontmatter.image ? `/${work.frontmatter.image}` : undefined
-  }
-}));
+    image: work.frontmatter.image,
+    slug: work.frontmatter.slug
+  });
+});
+
+// Asegurarse de que cada trabajo tenga un slug
+const worksWithSlugs = works.map(work => {
+  const imagePath = work.frontmatter.image ? `/${work.frontmatter.image}` : undefined;
+  console.log('Processing work:', {
+    title: work.frontmatter.title,
+    originalImage: work.frontmatter.image,
+    processedImage: imagePath
+  });
+  
+  return {
+    ...work,
+    frontmatter: {
+      ...work.frontmatter,
+      title: work.frontmatter.title || 'Untitled',
+      description: work.frontmatter.description || '',
+      pubDate: work.frontmatter.pubDate || new Date(),
+      slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
+      image: imagePath
+    }
+  };
+});
 ---
 
 <script>
@@ -35,15 +54,18 @@ const worksWithSlugs = works.map(work => ({
       <h1 class="text-4xl font-bold mb-8 text-neutral-100">ARTWORK</h1>
       
       <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {worksWithSlugs.map((work) => (
-          <WorkRow
-            title={work.frontmatter.title}
-            date={work.frontmatter.pubDate}
-            url={work.frontmatter.slug}
-            image={work.frontmatter.image}
-            description={work.frontmatter.description}
-          />
-        ))}
+        {worksWithSlugs.map((work) => {
+          console.log('Rendering work:', work.frontmatter);
+          return (
+            <WorkRow
+              title={work.frontmatter.title}
+              date={work.frontmatter.pubDate}
+              url={work.frontmatter.slug}
+              image={work.frontmatter.image}
+              description={work.frontmatter.description}
+            />
+          );
+        })}
       </ul>
     </div>
   </main>

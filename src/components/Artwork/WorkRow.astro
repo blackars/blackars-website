@@ -14,7 +14,13 @@ const { title, date, url, image, description } = Astro.props;
 const safeDate = date ?? new Date(0);
 
 // Depuración
-console.log('WorkRow props:', { title, image, url });
+console.log('WorkRow received props:', { 
+  title, 
+  image, 
+  url,
+  hasImage: !!image,
+  imagePath: image ? new URL(image, Astro.url.origin).toString() : 'no image'
+});
 ---
 
 <li class="w-full text-neutral-100 hover:text-neutral-400 ease-in-out transition-colors my-4">
@@ -32,6 +38,7 @@ console.log('WorkRow props:', { title, image, url });
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onerror="console.error('Error loading image:', this.src); this.parentElement.innerHTML='<div class=\'absolute inset-0 flex items-center justify-center text-neutral-400\'>No image available</div>'"
+            onload="console.log('Image loaded successfully:', this.src)"
           />
         ) : (
           <div class="absolute inset-0 flex items-center justify-center text-neutral-400">
