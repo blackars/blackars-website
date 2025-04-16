@@ -1,10 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import WorkRow from "../../components/Artwork/WorkRow.astro";
+import Card from "../../components/Card/index.astro";
+import { formatDate } from "../../lib/helpers";
 
 const works = await Astro.glob('/src/content/work/*.md');
 
-// Asegurarse de que cada trabajo tenga un slug
+// Asegurarse de que cada trabajo tenga un slug y mantener la propiedad image
 const worksWithSlugs = works.map(work => {
   return {
     ...work,
@@ -13,7 +14,8 @@ const worksWithSlugs = works.map(work => {
       title: work.frontmatter.title || 'Untitled',
       description: work.frontmatter.description || '',
       pubDate: work.frontmatter.pubDate || new Date(),
-      slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', '')
+      slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
+      image: work.frontmatter.image // Asegurarse de que image se incluya explícitamente
     }
   };
 });
@@ -35,15 +37,42 @@ const worksWithSlugs = works.map(work => {
       </a>
       <h1 class="text-4xl font-bold mb-8 text-neutral-100">ARTWORK</h1>
       
+      {/* Para depuración: mostrar los datos disponibles */}
+      <div class="hidden">
+        {works.map(work => (
+          <pre>{JSON.stringify(work.frontmatter, null, 2)}</pre>
+        ))}
+      </div>
+      
       <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {worksWithSlugs.map((work) => (
-          <WorkRow
-            title={work.frontmatter.title}
-            date={work.frontmatter.pubDate}
-            url={work.frontmatter.slug}
-            image={work.frontmatter.image}
-            description={work.frontmatter.description}
-          />
+        {works.map((work) => (
+          <li class="w-full">
+            <Card>
+              <a href={`/artwork/${work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', '')}`} class="block text-neutral-100 hover:text-neutral-400">
+                <div class="flex flex-col gap-2">
+                  <h3 class="font-bold m-0 pt-0 mb-0">{work.frontmatter.title}</h3>
+                  <p class="my-0 font-light text-sm">{work.frontmatter.description}</p>
+                  
+                  {work.frontmatter.image && (
+                    <img 
+                      src={work.frontmatter.image}
+                      alt={work.frontmatter.title}
+                      class="w-full h-auto max-h-[300px] select-none md:w-auto md:max-h-[300px] md:relative md:opacity-100 pointer-events-none"
+                    />
+                  )}
+                  
+                  {work.frontmatter.pubDate && (
+                    <time
+                      class="text-right tabular-nums text-sm text-neutral-400"
+                      datetime={new Date(work.frontmatter.pubDate).toISOString()} 
+                    >
+                      {formatDate(new Date(work.frontmatter.pubDate))}
+                    </time>
+                  )}
+                </div>
+              </a>
+            </Card>
+          </li>
         ))}
       </ul>
     </div>
