@@ -2,7 +2,12 @@
 import Layout from "../../layouts/Layout.astro";
 import Card from "../../components/Card/index.astro";
 
-const works = await Astro.glob('/src/content/work/*.md');
+// Get works and sort them in descending order by pubDate
+const works = (await Astro.glob('/src/content/work/*.md')).sort((a, b) => {
+  const dateA = new Date(a.frontmatter.pubDate);
+  const dateB = new Date(b.frontmatter.pubDate);
+  return dateB.getTime() - dateA.getTime();
+});
 ---
 
 <script>
@@ -13,7 +18,7 @@ const works = await Astro.glob('/src/content/work/*.md');
   timeline(sequence as TimelineDefinition);
 </script>
 
-<Layout title="Andres Mesa - Artwork" description="New Media Arts">
+<Layout title="Andres Mesa - Artwork" description="Creative coder">
   <main class="w-screen min-h-screen p-8">
     <div class="max-w-6xl mx-auto">
       <a href="../" class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2 mb-8 border-0 border-solid border-white rounded-none inline-block">
@@ -21,7 +26,7 @@ const works = await Astro.glob('/src/content/work/*.md');
       </a>
       <h1 class="text-4xl font-bold mb-8 text-neutral-100">ARTWORK</h1>
       
-      <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {works.map((work) => (
           <li class="w-full">
             <Card>
