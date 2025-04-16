@@ -9,9 +9,10 @@ const worksWithSlugs = works.map(work => ({
   ...work,
   frontmatter: {
     ...work.frontmatter,
-    // Genera un slug desde el nombre del archivo si no existe en el frontmatter
+    title: work.frontmatter.title,
+    description: work.frontmatter.description,
+    pubDate: work.frontmatter.pubDate,
     slug: work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', ''),
-    // Asegurarse de que la ruta de la imagen sea absoluta
     image: work.frontmatter.image ? `/${work.frontmatter.image}` : undefined
   }
 }));
