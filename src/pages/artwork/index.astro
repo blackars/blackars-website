@@ -45,35 +45,58 @@ const worksWithSlugs = works.map(work => {
       </div>
       
       <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {works.map((work) => (
-          <li class="w-full">
-            <Card>
-              <a href={`/artwork/${work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', '')}`} class="block text-neutral-100 hover:text-neutral-400">
-                <div class="flex flex-col gap-2">
-                  <h3 class="font-bold m-0 pt-0 mb-0">{work.frontmatter.title}</h3>
-                  <p class="my-0 font-light text-sm">{work.frontmatter.description}</p>
-                  
-                  {work.frontmatter.image && (
+        {works.map((work) => {
+          // Construir una ruta absoluta para la imagen
+          const imagePath = work.frontmatter.image ? 
+            (work.frontmatter.image.startsWith('/') ? 
+              work.frontmatter.image : 
+              `/${work.frontmatter.image}`) : 
+            null;
+          
+          return (
+            <li class="w-full">
+              <Card>
+                <a href={`/artwork/${work.frontmatter.slug || work.file.split('/').pop()?.replace('.md', '')}`} class="block text-neutral-100 hover:text-neutral-400">
+                  <div class="flex flex-col gap-2">
+                    <h3 class="font-bold m-0 pt-0 mb-0">{work.frontmatter.title}</h3>
+                    <p class="my-0 font-light text-sm">{work.frontmatter.description}</p>
+                    
+                    {/* Insertar algunas imágenes conocidas para probar */}
                     <img 
-                      src={work.frontmatter.image}
-                      alt={work.frontmatter.title}
-                      class="w-full h-auto max-h-[300px] select-none md:w-auto md:max-h-[300px] md:relative md:opacity-100 pointer-events-none"
+                      src="/rd-td.gif"
+                      alt="Test image 1"
+                      class="w-full h-auto max-h-[150px] select-none pointer-events-none"
                     />
-                  )}
-                  
-                  {work.frontmatter.pubDate && (
-                    <time
-                      class="text-right tabular-nums text-sm text-neutral-400"
-                      datetime={new Date(work.frontmatter.pubDate).toISOString()} 
-                    >
-                      {formatDate(new Date(work.frontmatter.pubDate))}
-                    </time>
-                  )}
-                </div>
-              </a>
-            </Card>
-          </li>
-        ))}
+                    
+                    {/* Intentar mostrar la imagen real con ruta forzada */}
+                    {imagePath && (
+                      <img 
+                        src={imagePath}
+                        alt={work.frontmatter.title}
+                        class="w-full h-auto max-h-[300px] select-none md:w-auto md:max-h-[300px] md:relative md:opacity-100 pointer-events-none"
+                      />
+                    )}
+                    
+                    {/* Mostrar la ruta original de la imagen para depuración */}
+                    <div class="text-xs text-gray-500">
+                      <p>Ruta original: {work.frontmatter.image}</p>
+                      <p>Ruta procesada: {imagePath}</p>
+                    </div>
+                    
+                    {work.frontmatter.pubDate && (
+                      <time
+                        class="text-right tabular-nums text-sm text-neutral-400"
+                        datetime={new Date(work.frontmatter.pubDate).toISOString()} 
+                      >
+                        {formatDate(new Date(work.frontmatter.pubDate))}
+                      </time>
+                    )}
+                  </div>
+                </a>
+              </Card>
+            </li>
+          );
+        })}
       </ul>
     </div>
   </main>
