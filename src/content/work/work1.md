@@ -1,20 +1,21 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Reaction-Diffusion #1"
-description: "this is a post example"
-pubDate: 2023-01-21
-category: "intro"
-image: "/rd-td.gif"
-slug: "projectr"
+description: "Touchdesigner Network"
+pubDate: 2024-10-21
+category: "viusals"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-16-9.gif?raw=true"
+slug: "reaction-diffusion3"
 ---
 
-# Hi there!
+This is the sample #1 of a Reaction-Diffusion system made with node components in Touchdessigner. 
 
-This Markdown file creates a page at `your-domain.com/post1/`
+**Reaction-Diffusion #1** 
 
-It probably isn't styled much, but Markdown does support:
+![Reaction-Diffusion #1 ](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-1-1.gif?raw=true)
 
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
+**Node Network** 
+
+![Node Network to reaction-diffusion system #1](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-td-node.png)
+
+                                            ■
