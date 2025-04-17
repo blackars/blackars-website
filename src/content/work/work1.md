@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "MINIATURES AB!"
+title: "Reaction-Diffusion #1"
 description: "this is a post example"
 pubDate: 2023-01-21
 category: "intro"
