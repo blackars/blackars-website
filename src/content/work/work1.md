@@ -16,7 +16,7 @@ This is the sample #1 of a Reaction-Diffusion system made with node components i
 
 **Node Network** 
 
-![Node Network to reaction-diffusion system #1](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-td-node.png)
+![Node Network to reaction-diffusion system #1](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-td-node.png?raw=true)
 
 
 To download .toe file from the repository, **[CLICK HERE](https://github.com/blackars/Touchdesigner/tree/master/Reaction-Diffusion)**.
