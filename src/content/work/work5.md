@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "TouchConcepts 1"
-description: "this is a post example"
+description: "3D Web Experience"
 pubDate: 2025-03-24
 category: "software"
 image: "https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/Touchconcepts.gif?raw=true"
