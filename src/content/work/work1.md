@@ -5,7 +5,7 @@ description: "Touchdesigner Network"
 pubDate: 2024-10-21
 category: "viusals"
 image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-16-9.gif?raw=true"
-slug: "reaction-diffusion3"
+slug: "reaction-diffusion1"
 ---
 
 This is the sample #1 of a Reaction-Diffusion system made with node components in Touchdessigner. 
