@@ -31,14 +31,14 @@ A photo of the self-portrait without the video projection.
 ![PIECE 2 key frames](screenshots/piece2.png)
 Some key frames of the experimetal short films. Can you see the full video ![here](enlace de yotube del trabajo final) 
 
+To see the full piece, **[CLICK HERE](https://studio.youtube.com/video/y-OFMhGHcgw/edit)**.
 
 * **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
 
-<div style="text-align: center;"> 
 
 ![PIECE 3 interactive cube](screenshots/piece3.gif)
 The interactive video projection that moves in the direction of the movement detected by a camera.
-</div>
+
 
 
 En esta tres piezas se usan solo algunos de los elementos visuales obtenidos tras el "encriptado creativo" que se hace de los datos-para salbaguardar estos- y experiencias durante la enseñanza de los procesos, todo este material, se fue utilizando entre piezas, experimentando una y otra vez con esas cuestiones esenciales que eran reducidas a conceptos minimos para con ellos crear, esconder entre un lenguaje propio las piezas de un rompecabezas que se contruye poco a poco con cada experimento que me aproxima cada vez mas a herramientas de vangardia para desdibujar los limites entre la praxis artistica y las ciencias de la computacion.
