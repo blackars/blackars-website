@@ -29,9 +29,7 @@ A photo of the self-portrait without the video projection.
 * **Piece 2 - Video Art on Screens:** An experimental audiovisual projection displayed on a matrix of LCD monitors, created from data, images, and animations generated through digital processing. It is an abstraction of the research, devoid of interactivity and trapped within the digital realm.
 
 ![PIECE 2 key frames](screenshots/piece2.png)
-Some key frames of the experimetal short films. Can you see the full video ![here](enlace de yotube del trabajo final) 
-
-To see the full piece, **[CLICK HERE](https://studio.youtube.com/video/y-OFMhGHcgw/edit)**.
+Some key frames of the experimetal short films. Can you see the full video **[HERE](https://studio.youtube.com/video/y-OFMhGHcgw/edit)**.
 
 * **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
 
@@ -39,6 +37,4 @@ To see the full piece, **[CLICK HERE](https://studio.youtube.com/video/y-OFMhGHc
 ![PIECE 3 interactive cube](screenshots/piece3.gif)
 The interactive video projection that moves in the direction of the movement detected by a camera.
 
-
-
-En esta tres piezas se usan solo algunos de los elementos visuales obtenidos tras el "encriptado creativo" que se hace de los datos-para salbaguardar estos- y experiencias durante la enseñanza de los procesos, todo este material, se fue utilizando entre piezas, experimentando una y otra vez con esas cuestiones esenciales que eran reducidas a conceptos minimos para con ellos crear, esconder entre un lenguaje propio las piezas de un rompecabezas que se contruye poco a poco con cada experimento que me aproxima cada vez mas a herramientas de vangardia para desdibujar los limites entre la praxis artistica y las ciencias de la computacion.
+In these three pieces, only some of the visual elements obtained through 'creative encryption'—used to safeguard data—are incorporated, along with experiences gathered during the teaching of processes. All of this material has been repurposed across different works, experimenting repeatedly with those essential concepts that were distilled to their minimal form in order to create, to conceal within a unique language the fragments of a puzzle that is slowly assembled with each experiment. This process brings me closer to cutting-edge tools that blur the boundaries between artistic practice and computer science.
