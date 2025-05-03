@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Reaction-Diffusion #2"
-description: "Touchdesigner Network"
+description: "Granulated Clouds"
 pubDate: 2024-10-22
 category: "viusals"
 image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2.png?raw=true"
@@ -19,5 +19,13 @@ This is the sample #2 of a Reaction-Diffusion system made with node components i
 
 ![Node Network to reaction-diffusion system #2](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2-td-node.png?raw=true)
 
+Initial Seed: A noise3 operator generates a more contrasted pattern than RD1.
+
+**Feedback:** feedback2 feeds back into the network.
+**Diffusion:** blur2 smooths the feedback signal.
+**Reaction:** sharpen1 enhances contrasted details.
+**Multi-source Mixing:** Parallel to the main route, a noise4 (fine noise) and a lumaBlur2 are injected, then **everything is combined in comp2. This adds granularity and disrupts repetition.
+**Output:** The result is sent directly to out2, producing a granular “cloud” of light and dark patches, with less defined contours.
+**Result:** A “cloud fabric” of softer, textured points/clusters with reduced edge definition
 
 To download .toe file from the repository, **[CLICK HERE](https://github.com/blackars/Touchdesigner/tree/master/Reaction-Diffusion)**.
