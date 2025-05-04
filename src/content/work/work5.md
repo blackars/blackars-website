@@ -5,7 +5,7 @@ description: "Parametric Curves"
 pubDate: 2025-04-15
 category: "visuals"
 image: "https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes.png?raw=true"
-slug: "reaction-diffusion3"
+slug: "circle-echoes"
 ---
 
 
