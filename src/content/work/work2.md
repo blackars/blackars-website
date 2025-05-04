@@ -3,7 +3,7 @@ layout: ../../layouts/LayoutBlogPost.astro
 title: "Reaction-Diffusion #2"
 description: "Granulated Clouds"
 pubDate: 2024-10-22
-category: "viusals"
+category: "visuals"
 image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2.png?raw=true"
 slug: "reaction-diffusion2"
 ---

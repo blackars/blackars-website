@@ -3,7 +3,7 @@ layout: ../../layouts/LayoutBlogPost.astro
 title: "Reaction-Diffusion #1"
 description: "Monochrome Labyrinth"
 pubDate: 2024-10-21
-category: "viusals"
+category: "visuals"
 image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1.png?raw=true"
 slug: "reaction-diffusion1"
 ---
