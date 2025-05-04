@@ -12,7 +12,7 @@ slug: "touchconcepts1"
 
 **Tech & Design Stack:** Three.js, Solid.js, & Astro / Touchdesigner, Premiere Pro & Affter Effects
 
-This minimal interactive visual piece is an initial collection of ideas for experimenting with my conceptual style in media art and design, play usign just click or tap, you can move from scene to scene exploring the minigames and just appreciating the sequence and sound. Music track is "Do For Me" by KrippSoulisc, **[CLICK HERE](https://music.youtube.com/channel/UCb8NzwP7Y9BekoG-_Q5fp-w)** to listen their work. 
+This minimal interactive visual piece is an initial collection of ideas for experimenting with my conceptual style in media art and design, play using just click or tap, you can move from scene to scene exploring the minigames and just appreciating the sequence and sound. Music track is "Do For Me" by KrippSoulisc, **[CLICK HERE](https://music.youtube.com/channel/UCb8NzwP7Y9BekoG-_Q5fp-w)** to listen their work. 
 
 To experience the full version **[CLICK HERE](https://touchconcepts1.netlify.app/)**, or to watch a gameplay Video in Youtube **[CLICK HERE](https://touchconcepts1.netlify.app/)**. 
 
