@@ -4,7 +4,7 @@ title: "Circle Echoes ⌾"
 description: "Parametric Curves"
 pubDate: 2025-04-15
 category: "visuals"
-image: "https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes-16-9.gif?raw=true"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes.png?raw=true"
 slug: "circle-echoes"
 ---
 

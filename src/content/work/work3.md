@@ -20,14 +20,17 @@ This is the sample #3 of a Reaction-Diffusion system made with node components i
 ![Node Network to reaction-diffusion system #3](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd3-td-node.png?raw=true)
 
 **Upper Path**
+
 noise5 → feedback3 → blur3 → sharpen2
 Simulates a basic reaction-diffusion process that produces clipped patches.
 
 **Intermediate Path**
+
 noise6 → lumaBlur3
 A softer noise that introduces grayscale variation.
 
 **Combination**
+
 The two paths are merged using comp3 (multiplication or addition) to blend the spots.
 At the output of comp3, noise7 is injected, followed by slope1 (which remaps values with a curve) to define smooth contours.
 
