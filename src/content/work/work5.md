@@ -31,7 +31,7 @@ This allows you to populate the scene with thousands of copies of your original 
 
 The instance TOP enters a null and a feedback1 → transform3 → level3 → ... system, which eliminates, stretches, and attenuates the image each frame.
 This accumulation-based "painting" generates the spirals/concentric patterns seen in the final out. Each frame absorbs part of the previous one and adds the new instance rendering, resulting in a dynamic and organic stroke.
-A keyboardin1 allows you to "erase" or reset the feedback buffer with a key press
+A keyboardin1 allows you to "erase" or reset the feedback buffer with a key press.
 
 To download .toe file from the repository, **[CLICK HERE](https://github.com/blackars/Touchdesigner/tree/master/Circle-Echoes)**.
 
