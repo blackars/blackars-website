@@ -4,7 +4,7 @@ title: "Reaction-Diffusion #1"
 description: "Monochrome Labyrinth"
 pubDate: 2024-10-21
 category: "visuals"
-image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1.png?raw=true"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-16-9.webp?raw=true"
 slug: "reaction-diffusion1"
 ---
 
