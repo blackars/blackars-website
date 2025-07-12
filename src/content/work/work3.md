@@ -4,7 +4,7 @@ title: "Reaction-Diffusion #3"
 description: "Liquid Cells"
 pubDate: 2024-10-23
 category: "visuals"
-image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd3.png?raw=true"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd3-16-9.webp?raw=true"
 slug: "reaction-diffusion3"
 ---
 
@@ -13,7 +13,7 @@ This is the sample #3 of a Reaction-Diffusion system made with node components i
 
 **Reaction-Diffusion #3** 
 
-![Reaction-Diffusion #3 ](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd3-16-9.gif?raw=true)
+![Reaction-Diffusion #3 ](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd3-16-9.webp?raw=true)
 
 **Node Network** 
 

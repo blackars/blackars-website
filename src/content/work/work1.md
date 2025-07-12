@@ -13,7 +13,7 @@ This is the sample #1 of a Reaction-Diffusion system made with node components i
 **Reaction-Diffusion #1** 
 
 
-![Reaction-Diffusion #1 ](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-16-9.gif?raw=true)
+![Reaction-Diffusion #1 ](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd1-16-9.webp?raw=true)
 
 **Node Network** 
 

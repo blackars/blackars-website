@@ -4,7 +4,7 @@ title: "Reaction-Diffusion #2"
 description: "Granulated Clouds"
 pubDate: 2024-10-22
 category: "visuals"
-image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2.png?raw=true"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2-16-9.webp?raw=true"
 slug: "reaction-diffusion2"
 ---
 
@@ -13,7 +13,7 @@ This is the sample #2 of a Reaction-Diffusion system made with node components i
 
 **Reaction-Diffusion #2** 
 
-![Reaction-Diffusion #2](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2-16-9.gif?raw=true)
+![Reaction-Diffusion #2](https://github.com/blackars/Touchdesigner/blob/master/Reaction-Diffusion/rd2-16-9.webp?raw=true)
 
 **Node Network** 
 

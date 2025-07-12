@@ -4,14 +4,14 @@ title: "Circle Echoes ⌾"
 description: "Parametric Curves"
 pubDate: 2025-04-15
 category: "visuals"
-image: "https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes.png?raw=true"
+image: "https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes-16-9.webp?raw=true"
 slug: "circle-echoes"
 ---
 
 
 **Circle Echoes ⌾** 
 
-![Circle Echoes](https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes-16-9.gif?raw=true)
+![Circle Echoes](https://github.com/blackars/Touchdesigner/blob/master/Circle-Echoes/circle_echoes-16-9.webpf?raw=true)
 
 
 
