@@ -18,30 +18,30 @@ To experience the full version **[CLICK HERE](https://touchconcepts1.netlify.app
 
 
 **Scene 1**
-![TouchConcepts 1](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene1.gif?raw=true)
+![TouchConcepts 1](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene1.webp?raw=true)
 
 
 **Scene 2**
-![TouchConcepts 2](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene2.gif?raw=true)
+![TouchConcepts 2](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene2.webp?raw=true)
 
 
 **Scene 3**
-![TouchConcepts 3](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene3.gif?raw=true)
+![TouchConcepts 3](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene3.webp?raw=true)
 
 
 **Scene 4** 
-![TouchConcepts 4](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene4.gif?raw=true)
+![TouchConcepts 4](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene4.webp?raw=true)
 
 
 **Scene 5**
-![TouchConcepts 5](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene5.gif?raw=true)
+![TouchConcepts 5](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene5.webp?raw=true)
 
 
 **Scene 6**
-![TouchConcepts 6](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene6.gif?raw=true)
+![TouchConcepts 6](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene6.webp?raw=true)
 
 
 **Scene 7**
-![TouchConcepts 7](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene7.gif?raw=true)
+![TouchConcepts 7](https://github.com/blackars/TouchConcepts1-3DWebExperience/blob/master/components%20preview/gif_scene7.webp?raw=true)
 
 To learn more about the code project, **[CLICK HERE](https://github.com/blackars/TouchConcepts1-3DWebExperience)** to visit the repository in github. 
