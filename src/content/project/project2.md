@@ -6,13 +6,13 @@ abstract: "Portals Garden 001 ........... "
 pubDate: 2025-04-08
 category: "software"
 id: "2"
-image: "/minibase_module.gif"
+image: "/portalsgarden.webp"
 slug: "portals-garden"
 
 ---
 
-Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js
-* **[ Here is the project code](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
+Technologias: JavaScript, CSS, HTML, Three.js & Tensorflow.js
+* **[ Aqui el repositorio del proyecto](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
 <br>
 
 Visita y explora la experiencia compelta en:**[Portals Garden](https://portalsgarden.netlify.app)**
@@ -25,12 +25,10 @@ Visita y explora la experiencia compelta en:**[Portals Garden](https://portalsga
 # **Portals Garden**
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.png)
-
+_Al interior de NOXISTENCE, existen espacios donde florecen muchos otros lugares y pueden ser encontrados caminos a existencias complejas atrapadas en este limbo. Estos jardines no son puntos aislados pues resulta evidente que les une algo, son caminos a todo lo que la inexistencia aquí captura, pero también son en si mismos senderos que develan de a poco los secretos que aquí se esconden._ 
 <br>
 
-_Al interior de NOXISTENCE, existen espacios donde florecen muchos otros lugares y pueden ser encontrados caminos a existencias complejas atrapadas en este limbo. Estos jardines no son puntos aislados pues resulta evidente que les une algo, son caminos a todo lo que la inexistencia aquí captura, pero también son en si mismos senderos que develan de a poco los secretos que aquí se esconden._ 
-
+![Portals Garden](screenshots/portalsgarden/portalsgarden.png)
 <br>
 
 Portals Garden 001, es el primer cumulo de experiencias relacionadas al universo narrativo que introduzco en el anterior blog;**[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. En este jardín de portales se comienza a explorar las historias detrás de parajes, criaturas y tantas otras cosas propias del lore es este universo. 
@@ -45,10 +43,12 @@ una primera puesta en escena y extensión de mi universo de ficción y sus  posi
 <br>
 
 ![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)
+<br>
+
 ![Modal de Instrucciones](screenshots/portalsgarden/instructions.png)
+<br>
 
 El jardín de portales #1, nos muestra un poco de como se da la interacción para ingresar a las experiencias que aquí florecen.
-
 <br>
 
 ## **Clean Squared Place**
@@ -58,6 +58,7 @@ El jardín de portales #1, nos muestra un poco de como se da la interacción par
 <br>
 
 Esta experiencia es la unica que no es en 3D. Consiste en despejar el Squared Place de las entidades atrapadas en el. Al completarse se obtiene un patrón para desbloquear otra experiencia: 
+<br>
 
 ![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)
 <br>
@@ -132,4 +133,5 @@ Aquí conocemos a un pensador de la especie Gardhan, atrapados entre sus pensami
 <br>
 
 Aquí yace un pensador humano, en un limbo de conceptos, ideas y visiones de una realidad difícil de comprender, ¿Qué tiene para revelarnos la mente humana?
+
 <br>
