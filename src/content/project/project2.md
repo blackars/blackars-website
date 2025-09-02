@@ -12,88 +12,124 @@ slug: "portals-garden"
 ---
 
 Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js
+* **[ Here is the project code](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
+<br>
 
-**MiniBase v1.0.0: Dynamic Management of Miniature Collectibles with Potential for AI and RPG.**
+Visita y explora la experiencia compelta en:**[Portals Garden](https://portalsgarden.netlify.app)**
 
-![home screen](screenshots/home_screen.png)
-
-* **[ Here is the project code](https://github.com/blackars/MiniBase)**
-* **[ & here an executable for Windows 10/11](https://github.com/blackars/MiniBase-Distro)**
-* **[See the app in action! Learn how to use it with this video.](*https://www.youtube.com/watch?v=nPuCyze-j4o&ab_channel=Blackars)**
-
-The project begins with MiniBase, an innovative tool designed for collectors,creators, and miniature enthusiasts. Its primary goal is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and narrative and/or collectible lore. However, its modular and extensible design opens the door to future integrations with Artificial Intelligence models, making it an ideal solution for adding dynamism and depth to character collections in role-playing game (RPG) environments.
-
-**Project Utility**
-
-* Centralized Management: The application allows users to organize and maintain a detailed record of their miniatures, including physical attributes (such as weight, height, and colors) and narrative aspects (such as history and purpose within the user's or character's universe).
-
-* Visualization and Organization: With the ability to upload images and detailed views, users can clearly and attractively visualize their miniatures, making it easier to organize large collections.
-
-* Interoperability: The import and export functionality in formats such as JSON, Excel, and CSV allows data integration with other tools or platforms, making it ideal for collaborative projects or expansions.
-
-* AI Readiness: The project's data structure is designed to be compatible with AI models. This means that, in the future, algorithms could be implemented to generate automatic descriptions, create dynamic stories, or even simulate character behaviors in RPG environments using Computer Vision tools.
-
-* RPG Dynamism: By integrating lore and metadata, the database can serve as a key resource for Dungeon Masters or storytellers in a variety of role-playing games. Characters can be selected, customized, and used in campaigns, adding a unique level of immersion.
-
-**System Operation** 
-
-MiniBase is based on an intuitive graphical interface developed with Tkinter, which guides the user through the following main functionalities.
-
-![home screen empty](screenshots/home_screen_empty.png)
+<br>
 
 
-**Miniature Creation**
+<br>
 
-Users can add new miniature to the database, specifying attributes such as name, tags, materials, colors, etc., all in the creation module (creation_module.py).
+# **Portals Garden**
+<br>
 
-![creation module screen 1](screenshots/creation_module1.2.png)
-![creation module screen 2](screenshots/creation_module2.3.png)
-![creation module screen 3](screenshots/creation_module3.2.png)
+![Portals Garden](screenshots/portalsgarden/portalsgarden.png)
 
-**Data Importation**
+<br>
 
-The import module (importation_module.py) requires a unified table structure that is provided in the Excel template (template.xlsx) and is the only one currently that supports the MiniBase system for importing data, and from which the first collectibles management was born.
+_Al interior de NOXISTENCE, existen espacios donde florecen muchos otros lugares y pueden ser encontrados caminos a existencias complejas atrapadas en este limbo. Estos jardines no son puntos aislados pues resulta evidente que les une algo, son caminos a todo lo que la inexistencia aquí captura, pero también son en si mismos senderos que develan de a poco los secretos que aquí se esconden._ 
 
-![importation module screen 1](screenshots/importation_module.png)
-![importation module screen 2](screenshots/importation_module2.png)
-![importation module screen 3](screenshots/importation_module3.png)
+<br>
 
-**Data Exportation** 
+Portals Garden 001, es el primer cumulo de experiencias relacionadas al universo narrativo que introduzco en el anterior blog;**[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. En este jardín de portales se comienza a explorar las historias detrás de parajes, criaturas y tantas otras cosas propias del lore es este universo. 
 
-The export module (exportation_module.py) allows the entire database to be exported in three standard formats: CSV, JSON, and Excel File. This allows for use on other platforms or tools.
+una primera puesta en escena y extensión de mi universo de ficción y sus  posibilidades narrativas transmedia valiéndome de la web, usando JavaScript, CSS y HTML vainilla de la mano de Three.js como framework principal junto a ciertas funcionalidades con Tensorflow.js. Para crear las experiencias que no buscan solo ser juegos sino también espacios de creación y expresión, rincones de arte para explorar y reflexionar, un total de 9 que conoceremos a continuación.
+<br>
 
-![exportation module screen 1](screenshots/exportation_module.png)
+**ADVERTENCIA: CONTIENE ALGUNOS SPOILERS** 
+<br>
 
-**Miniature Edition** 
+## **Portals Garden**
+<br>
 
-Once the characters have been entered into the database, you can edit their details again, add missing ones, or replace images from the editing module (edition_module.py).
+![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)
+![Modal de Instrucciones](screenshots/portalsgarden/instructions.png)
 
-![edition module screen](screenshots/edition_module.png)
-![edition module screen upload images](screenshots/edition_module2.png)
+El jardín de portales #1, nos muestra un poco de como se da la interacción para ingresar a las experiencias que aquí florecen.
 
-**Miniature Deletion**
+<br>
 
-The deletion module (deletion_module.py) currently only handles deleting the selected miniature from the database.
+## **Clean Squared Place**
+<br>
 
-![deletion module screen 1](screenshots/deletion_module.png)
-![deletion module screen 2](screenshots/deletion_module2.png)
-![deletion module screen 3](screenshots/deletion_module3.png)
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)
+<br>
 
-**Schema View**
+Esta experiencia es la unica que no es en 3D. Consiste en despejar el Squared Place de las entidades atrapadas en el. Al completarse se obtiene un patrón para desbloquear otra experiencia: 
 
-Schema View Component: The schemaview_module.py allows visualization of the database tables created from the schema.sql file using the initialization module (initialize_db.py). It serves as a review tool to verify how data insertions are being made, the existing tables, and their relationships.
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)
+<br>
 
-![schema view module](screenshots/schemaview_module.png)
+# **Nitrogenous Bases**
+<br>
 
-**Upcoming AI integrations for RPGs**
+Una vez ingresado el código de acceso llegamos al ordenador molecular de bases nitrogenadas, en esta experiencia con drag and drop, organizamos las moléculas en uno de los 5 patrones correspondientes a cada una de las experiencias que se ocultan en el código de la vida.
+<br>
 
-Although it does not currently include AI models, the project's structure is designed to facilitate the future integration of algorithms that can analyze, enrich, or generate dynamic content based on the characters in miniatures database. The next step in MiniBase's evolution is its integration with AI models to enhance its functionality. Some ideas include:
+![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)
+<br>
 
-* Automatic Lore Generation: Using language models, the application could generate unique stories for each gaming table, including attributes, scenes, settings, characters, and much more based on the user's collection.
+# **Game Of Life**
+<br>
 
-* Narrative Assistants: AI could act as a game master assistant, suggesting events, dialogues, or challenges based on the selected miniatures. Additionally, with Computer Vision, it could recognize the scenery and miniatures in real time.
+Esta experiencia no te llevara mas allá de ella misma, ¿o tal vez si? El tradicional juego de la vida de John Horton Conway, es reinterpretado en 3D con la estética de mi preferencia para ofrecer un espacio de experimentación simple, de reflexión a través de lo que se visualiza y se interpreta desde estas formas simples que nos apelan a algo tan complejo como la vida. 
+<br>
 
-*  Behavior Simulation: Miniature data could feed real-time simulations, allowing characters to interact in RPG environments where the system could act as the game master or an interactive ruleset.
+![Game of Life](screenshots/portalsgarden/gameoflife.webp)
+<br>
 
+# **AnothEarth**
+<br>
 
-MiniBase is designed not only to be a useful tool for maintaining miniature collections but also to serve as a platform with immense potential to enrich gaming and narrative experiences. Through the integration of LLM for creation and storytelling, as well as Computer Vision models to further enhance RPG dynamics, MiniBase acts as a bridge between traditional organization and the endless possibilities of modern technology.
+Este es el portal principal del que se hilaran todas las experiencias y websites relacionadas con el universo de AnothEarth, actualmente enlaza únicamente a la sección del lore correspondiente en el website principal de NOXISTENCE
+<br>
+
+![AnothEarth](screenshots/portalsgarden/anothearth.webp)
+<br>
+
+# **Maxkodia Planet**
+<br>
+
+![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)
+<br>
+
+Esta experiencia funciona de forma similar sino idéntica a AntohEarth. 
+<br>
+
+# **Space Words**
+<br>
+
+En esta experiencia exploramos un poco de lo que una mirada al espacio capturada en NOXISTENCE tiene para decirnos sobre su captor. 
+<br>
+
+![Space Words](screenshots/portalsgarden/spacewords.webp)
+<br>
+
+# **Deep Space Encounter**
+<br>
+
+En esta experiencia nos enfrentamos a uno de los peligros del espacio para al borde de la muerte entender y encarar el poder de un circulo… 
+<br>
+
+![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)
+<br>
+
+# **Gardhan Thinker**
+<br>
+
+![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)
+<br>
+
+Aquí conocemos a un pensador de la especie Gardhan, atrapados entre sus pensamientos podemos interactuar con esta mente para abrir una experiencia que ya comienza a llevarnos a un rincon oscuro de NOXISTENCE…
+<br>
+
+# **Human Thinker**
+<br>
+
+![Human Thinker](screenshots/portalsgarden/humanthinker.webp)
+<br>
+
+Aquí yace un pensador humano, en un limbo de conceptos, ideas y visiones de una realidad difícil de comprender, ¿Qué tiene para revelarnos la mente humana?
+<br>
