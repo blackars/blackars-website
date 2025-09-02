@@ -92,11 +92,10 @@ Este es el portal principal del que se hilaran todas las experiencias y websites
 
 # **Maxkodia Planet**
 <br>
-
-![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)
+Esta experiencia funciona de forma similar sino idéntica a AntohEarth. 
 <br>
 
-Esta experiencia funciona de forma similar sino idéntica a AntohEarth. 
+![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)
 <br>
 
 # **Space Words**
