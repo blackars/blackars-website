@@ -1,76 +1,40 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "The Fascinating World of Quantum Computing"
-description: "Exploring the basics, potential, and future of quantum computing."
-abstract: "un pequeño resumen de unas 120 palabras que trata de explicar de forma clara que se trabajo al interior del documento completo que puede ser revisado en el artculo en markdown"
-pubDate: 2024-12-03
+title: "Artificial Mind: Prototype I"
+description: "Artificial Mind: Prototype 1 explores the intersection of art and technology, reflecting on AI’s transformative role in artistic creation."
+abstract: "this project is an installation born from the research project A/R/Tography Between the Arts and Computer Sciences. It explores the relationship between art and technology, analyzing the role of digital tools in artistic creation. Developed within the Visual Arts Degree at Universidad del Valle, it reflects on AI’s transformative impact on art and everyday life. The three-piece installation follows the project's research structure, growing in complexity and integrating new media. It envisions a future where digital aesthetics and AI reshape sensory perception, pushing artistic creation into new dimensions."
+pubDate: 2024-06-06
 category: "technology"
 id: 2
-image: "/backui.gif"
-url: "projects-slug"
-slug: "the-fascinating-world-of-quantum-computing"
+image: "/neural.gif"
+slug: "artificial-mind-prototype1"
 ---
+**About the Creation into Process of the Installation**
 
-# The Fascinating World of Quantum Computing
+The installation Artificial Mind: Prototype 1 is the result of the undergraduate thesis project titled: A/R/Tography Between the Arts and Computer Sciences: The Proposal of a Research and Creation Approach on Technologies from the Visual Arts Degree at Universidad del Valle. This is an effort to A/R/Tograph the initiative to promote mastery and understand how relationships with technological tools develop in artistic processes, starting from the individual interested in the phenomenon and extending to the immediate context that largely shapes the researcher.
 
-Quantum computing is revolutionizing the way we approach complex problem-solving and data processing. This article delves into the basics of quantum computing, its potential applications, and what the future holds for this groundbreaking technology.
+This research need, born within the Visual Arts Degree program, stems from its students, teachers, and graduates, aiming to comprehend the various ways technological tools can be utilized and, above all, to understand how they are assimilated at a time when attention is focused on the rapid development of fields like Artificial Intelligence and its transformative potential across all areas of human life.
 
-## Understanding Quantum Computing
+From a need for creation fueled by the immediate context and its challenges in developing Artificial Intelligence, an initiative emerges and a document is developed that explores all these aspects through related references. This effort positions us within the Technological Phenomenon, where many avant-garde artists, aided by contemporary technological tools, contribute to shaping the vision of a futuristic aesthetic—an aesthetic where light becomes the medium for painting and data the material for sculpting.
 
-Quantum computing leverages the principles of quantum mechanics to process information in fundamentally different ways compared to classical computers. Here are some key concepts:
+As individuals become ensnared in the vast volume of this data, they are reduced to ones and zeros, black and white, point and line on an abstract volumetric plane of immense technical complexity, both in understanding and execution. This transforms this type of production into an ongoing endeavor that constantly iterates upon the knowledge accumulated throughout the process.
+The three pieces of this installation correspond to the chapter structure of the research, while also addressing the need to gradually advance in the investigative processes of the A/R/Tographer and the way new media integrate with all aspects of artistic creation. This represents an initial approach to future AI models, moving toward a new paradigm of the sensory.
 
-- **Quantum Bits (Qubits):** Unlike classical bits, which can be either 0 or 1, qubits can exist in a superposition of states, allowing them to represent both 0 and 1 simultaneously.
-- **Superposition:** This principle enables qubits to perform multiple calculations at once, vastly increasing computational power.
-- **Entanglement:** Qubits can become entangled, meaning the state of one qubit can depend on the state of another, even across large distances. This interdependence allows for faster and more complex computations.
+* **Piece 1 - Self-Portrait with Mapping:** A work assembled with miniatures that represents the creator's mind, evolving over the years with the integration of electronic components and animated projections. It reflects the artist's identity and their relationship with personal data.
 
-![Quantum Computing](/backui.gif)
-
-## Potential Applications
-
+![PIECE 1 mask without projection](screenshots/piece1.png)
+A photo of the self-portrait without the video projection.
 
 
-Quantum computing has the potential to transform various industries by solving problems that are currently intractable for classical computers. Some promising applications include:
+* **Piece 2 - Video Art on Screens:** An experimental audiovisual projection displayed on a matrix of LCD monitors, created from data, images, and animations generated through digital processing. It is an abstraction of the research, devoid of interactivity and trapped within the digital realm.
 
-### Cryptography
+![PIECE 2 key frames](screenshots/piece2.png)
+Some key frames of the experimetal short films. Can you see the full video **[HERE](https://studio.youtube.com/video/y-OFMhGHcgw/edit)**.
+
+* **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
 
 
-Quantum computers can break many of the cryptographic systems currently in use, but they can also enable new, more secure forms of encryption. Quantum key distribution (QKD) is an emerging technology that uses quantum mechanics to ensure secure communication.
+![PIECE 3 interactive cube](screenshots/piece3.gif)
+The interactive video projection that moves in the direction of the movement detected by a camera.
 
-### Drug Discovery
-
-The pharmaceutical industry can benefit from quantum computing by simulating molecular structures and interactions at an unprecedented level of detail. This can lead to faster and more efficient drug discovery processes.
-
-### Optimization Problems
-
-Quantum computing can tackle complex optimization problems more efficiently than classical computers. This has applications in logistics, finance, and manufacturing, where finding the optimal solution can save time and resources.
-
-## Challenges and Future Outlook
-
-Despite its potential, quantum computing faces several challenges:
-
-- **Error Rates:** Quantum systems are highly susceptible to errors due to decoherence and other quantum noise. Developing error correction methods is crucial.
-- **Scalability:** Building large-scale quantum computers with thousands or millions of qubits is a significant technical challenge.
-- **Cost:** Quantum computing technology is currently expensive and requires specialized conditions, such as extremely low temperatures.
-
-Researchers and tech companies are making strides in addressing these challenges. Companies like IBM, Google, and Microsoft are leading the charge in developing practical quantum computers and making them accessible through cloud-based platforms.
-
-### The Road Ahead
-
-The future of quantum computing is promising. As technology matures, we can expect:
-
-- **Improved Quantum Hardware:** Advances in materials science and engineering will lead to more stable and scalable quantum systems.
-- **Quantum Algorithms:** New algorithms specifically designed for quantum computers will unlock further potential and applications.
-- **Integration with Classical Systems:** Hybrid systems that combine classical and quantum computing will become more common, offering the best of both worlds.
-
-## Conclusion
-
-Quantum computing is set to revolutionize the way we solve complex problems and process information. While there are challenges to overcome, the potential benefits are immense. As research and development continue to progress, we are on the brink of a new era in computing that could transform industries and improve our understanding of the universe.
-
-For more in-depth information on quantum computing, check out these resources:
-
-- [IBM Quantum Computing](https://www.ibm.com/quantum-computing/)
-- [Google Quantum AI](https://quantumai.google/)
-- [Microsoft Quantum](https://azure.microsoft.com/en-us/services/quantum/)
-
----
-
+In these three pieces, only some of the visual elements obtained through 'creative encryption'—used to safeguard data—are incorporated, along with experiences gathered during the teaching of processes. All of this material has been repurposed across different works, experimenting repeatedly with those essential concepts that were distilled to their minimal form in order to create, to conceal within a unique language the fragments of a puzzle that is slowly assembled with each experiment. This process brings me closer to cutting-edge tools that blur the boundaries between artistic practice and computer science.

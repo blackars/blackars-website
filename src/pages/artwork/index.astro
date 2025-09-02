@@ -1,15 +1,13 @@
 ---
-import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import WorkRow from "../../components/Artwork/WorkRow.astro";
+import Card from "../../components/Card/index.astro";
 
-const works = (await getCollection("work")).sort(
-  (workEntryA, workEntryB) =>{
-    const dateA = workEntryA.data.pubDate ? workEntryA.data.pubDate.getTime() : 0;
-    const dateB = workEntryB.data.pubDate ? workEntryB.data.pubDate.getTime() : 0;
-    return dateB - dateA;
-  }
-);
+// Get works and sort them in descending order by pubDate
+const works = (await Astro.glob('/src/content/work/*.md')).sort((a, b) => {
+  const dateA = new Date(a.frontmatter.pubDate);
+  const dateB = new Date(b.frontmatter.pubDate);
+  return dateB.getTime() - dateA.getTime();
+});
 ---
 
 <script>
@@ -17,35 +15,47 @@ const works = (await getCollection("work")).sort(
   import { loaderAnimation } from "../../lib/constants";
 
   const sequence = [loaderAnimation];
-
   timeline(sequence as TimelineDefinition);
 </script>
 
-<Layout
-  title="Andres Mesa - Artwork"
-  description="Creative coder"
->
-  <main
-    class="w-screen h-screen flex flex-col justify-start items-start 
-    max-w-3xl mx-auto p-8"
-  >
-    <a
-      href="../"
-      class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2
-       mb-8 border-0 border-solid border-white rounded-none"
-      >Back</a
-    >
-    <h1 class="text-4xl font-bold mb-4 text-neutral-100">ARTWORK</h1>
-    <ul class="w-full">
-      {
-        works.map((work) => (
-          <WorkRow
-            title={work.data.title}
-            date={work.data.pubDate ?? new Date(0)}
-            url={work.slug}
-          />
-        ))
-      }
-    </ul>
+<Layout title="Andres Mesa - Artwork" description="Creative coder">
+  <main class="w-screen min-h-screen p-8">
+    <div class="max-w-6xl mx-auto">
+      <a href="../" class="text-white bg-neutral-900 hover:bg-neutral-800 px-4 py-2 mb-8 border-0 border-solid border-white rounded-none inline-block">
+        Back
+      </a>
+      <h1 class="text-4xl font-bold mb-8 text-neutral-100">ARTWORK</h1>
+      
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {works.map((work) => (
+          <li class="w-full">
+            <Card>
+              <a href={`/artwork/${work.frontmatter.slug}`} class="block text-neutral-100 hover:text-neutral-400">
+                <div class="flex flex-col gap-2">
+                  {/* Contenedor con proporción fija 16:9 */}
+                  <div class="relative w-full aspect-[16/9] overflow-hidden bg-neutral-800">
+                    {work.frontmatter.image && (
+                      <img 
+                        src={work.frontmatter.image}
+                        alt={work.frontmatter.title}
+                        class="absolute inset-0 w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                        width="800"
+                        height="450"
+                        loading="lazy"
+                      />
+                    )}
+                  </div>
+                  
+                  <div class="p-1">
+                    <h3 class="font-bold text-md mb-1">{work.frontmatter.title}</h3>
+                    <p class="text-sm text-neutral-400">{work.frontmatter.description}</p>
+                  </div>
+                </div>
+              </a>
+            </Card>
+          </li>
+        ))}
+      </ul>
+    </div>
   </main>
 </Layout>
