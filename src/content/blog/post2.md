@@ -1,17 +1,16 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "Marco Teórico: La motivación en los tópicos trabajados."
-description: "Parte del documento de investigación para mi trabajo de grado. "
-pubDate: 2024-06-06
-category: "Research"
+title: "About NOXISTENCE"
+description: ""
+pubDate: 2025-05-06
+category: "Creation"
 id: "2"
 ---
 
 
-## ABOUT THE PROJECT
 
-### NOXISTENCE
-
+# NOXISTENCE
+<br>
 El plano de la inexistencia; tal vez un universo donde existe un manifiesto de la inexistencia. NOXISTENCE, que en su etimología resulto del latin *Nox;* noche y del ingles *Istence;* Voluntad, pero en sus inicios era un juego de palabras y del como pronunciarle en español; *NOEXISTENCIA.* Es ahora como se titula para cobijar todo el desarrollo de una concepción creativa transmedia que es a su vez una paradoja cósmica que respira narrativa metafísica y vibra con una estética que mezcla lo surreal con lo ontológico. Es jugar con la idea de un universo cuya única manera de existir es ser el contenedor efímero de lo que no puede existir en ningún otro sitio. 
 
 Con este marco creativo puedo dar rienda suelta a mi imaginación y sus ensoñaciones así como a mi conciencia y sus aprendizajes, ambos de la mano haciendo posible un marco de creación que comienza a dar forma a un sueño de la infancia que me acompaña por siempre y del que ha nacido una constante reflexión sobre el como vivo el aprender y crear, entre tantas otras cuestiones que han determinado mucho de mi ser y que en las exploraciones aquí en NOXISTENCE puedo llevar a un siguiente nivel de expresión desde la creación. 
@@ -30,7 +29,7 @@ Desde este universo de ficción permeado de una estética hiperminimalista y nar
 
 El proyecto para la fecha de publicado este blog cuenta con varios de los recursos web principales ya desplegados y disponible. Uno de estos es el sitio principal **(https://noxistence.com)** donde se encuentra también el creciente Códice NOX, un apartado para el lore y muchos otros detalles ocultos para los curiosos. 
 
-También cuenta con la primera narrativa visual en una experiencia web 3D; Portals Garden, puedes acceder a esta desde:* **[Portals Garden](https://portalsgarden.netlify.app)**
+También cuenta con la primera narrativa visual en una experiencia web 3D; Portals Garden, puedes acceder a esta desde; **[Portals Garden](https://portalsgarden.netlify.app)**
 
 
 
