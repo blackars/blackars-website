@@ -30,7 +30,7 @@ Desde este universo de ficción permeado de una estética hiperminimalista y nar
 
 El proyecto para la fecha de publicado este blog cuenta con varios de los recursos web principales ya desplegados y disponible. Uno de estos es el sitio principal **(https://noxistence.com)** donde se encuentra también el creciente Códice NOX, un apartado para el lore y muchos otros detalles ocultos para los curiosos. 
 
-También cuenta con la primera narrativa visual en una experiencia web 3D; Portals Garden, puedes acceder a esta desde: **(https://portalsgarden.netlify.app)**
+También cuenta con la primera narrativa visual en una experiencia web 3D; Portals Garden, puedes acceder a esta desde:* **[Portals Garden](https://portalsgarden.netlify.app)**
 
 
 
