@@ -1,40 +1,136 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "Artificial Mind: Prototype I"
-description: "Artificial Mind: Prototype 1 explores the intersection of art and technology, reflecting on AI’s transformative role in artistic creation."
-abstract: "this project is an installation born from the research project A/R/Tography Between the Arts and Computer Sciences. It explores the relationship between art and technology, analyzing the role of digital tools in artistic creation. Developed within the Visual Arts Degree at Universidad del Valle, it reflects on AI’s transformative impact on art and everyday life. The three-piece installation follows the project's research structure, growing in complexity and integrating new media. It envisions a future where digital aesthetics and AI reshape sensory perception, pushing artistic creation into new dimensions."
-pubDate: 2024-06-06
-category: "technology"
-id: 2
-image: "/neural.gif"
-slug: "artificial-mind-prototype1"
+title: "Portals Garden"
+description: "."
+abstract: "Portals Garden 001 ........... "
+pubDate: 2025-04-08
+category: "software"
+id: "2"
+image: "/portalsgarden.webp"
+slug: "portals-garden"
+
 ---
-**About the Creation into Process of the Installation**
 
-The installation Artificial Mind: Prototype 1 is the result of the undergraduate thesis project titled: A/R/Tography Between the Arts and Computer Sciences: The Proposal of a Research and Creation Approach on Technologies from the Visual Arts Degree at Universidad del Valle. This is an effort to A/R/Tograph the initiative to promote mastery and understand how relationships with technological tools develop in artistic processes, starting from the individual interested in the phenomenon and extending to the immediate context that largely shapes the researcher.
+Technologias: JavaScript, CSS, HTML, Three.js & Tensorflow.js
+* **[ Aqui el repositorio del proyecto](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
+<br>
 
-This research need, born within the Visual Arts Degree program, stems from its students, teachers, and graduates, aiming to comprehend the various ways technological tools can be utilized and, above all, to understand how they are assimilated at a time when attention is focused on the rapid development of fields like Artificial Intelligence and its transformative potential across all areas of human life.
+Visita y explora la experiencia compelta en:**[Portals Garden](https://portalsgarden.netlify.app)**
 
-From a need for creation fueled by the immediate context and its challenges in developing Artificial Intelligence, an initiative emerges and a document is developed that explores all these aspects through related references. This effort positions us within the Technological Phenomenon, where many avant-garde artists, aided by contemporary technological tools, contribute to shaping the vision of a futuristic aesthetic—an aesthetic where light becomes the medium for painting and data the material for sculpting.
-
-As individuals become ensnared in the vast volume of this data, they are reduced to ones and zeros, black and white, point and line on an abstract volumetric plane of immense technical complexity, both in understanding and execution. This transforms this type of production into an ongoing endeavor that constantly iterates upon the knowledge accumulated throughout the process.
-The three pieces of this installation correspond to the chapter structure of the research, while also addressing the need to gradually advance in the investigative processes of the A/R/Tographer and the way new media integrate with all aspects of artistic creation. This represents an initial approach to future AI models, moving toward a new paradigm of the sensory.
-
-* **Piece 1 - Self-Portrait with Mapping:** A work assembled with miniatures that represents the creator's mind, evolving over the years with the integration of electronic components and animated projections. It reflects the artist's identity and their relationship with personal data.
-
-![PIECE 1 mask without projection](screenshots/piece1.png)
-A photo of the self-portrait without the video projection.
+<br>
 
 
-* **Piece 2 - Video Art on Screens:** An experimental audiovisual projection displayed on a matrix of LCD monitors, created from data, images, and animations generated through digital processing. It is an abstraction of the research, devoid of interactivity and trapped within the digital realm.
+<br>
 
-![PIECE 2 key frames](screenshots/piece2.png)
-Some key frames of the experimetal short films. Can you see the full video **[HERE](https://studio.youtube.com/video/y-OFMhGHcgw/edit)**.
+# **Portals Garden**
+<br>
 
-* **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
+_Al interior de NOXISTENCE, existen espacios donde florecen muchos otros lugares y pueden ser encontrados caminos a existencias complejas atrapadas en este limbo. Estos jardines no son puntos aislados pues resulta evidente que les une algo, son caminos a todo lo que la inexistencia aquí captura, pero también son en si mismos senderos que develan de a poco los secretos que aquí se esconden._ 
+<br>
 
+![Portals Garden](screenshots/portalsgarden/portalsgarden.png)
+<br>
 
-![PIECE 3 interactive cube](screenshots/piece3.gif)
-The interactive video projection that moves in the direction of the movement detected by a camera.
+Portals Garden 001, es el primer cumulo de experiencias relacionadas al universo narrativo que introduzco en el anterior blog;**[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. En este jardín de portales se comienza a explorar las historias detrás de parajes, criaturas y tantas otras cosas propias del lore es este universo. 
 
-In these three pieces, only some of the visual elements obtained through 'creative encryption'—used to safeguard data—are incorporated, along with experiences gathered during the teaching of processes. All of this material has been repurposed across different works, experimenting repeatedly with those essential concepts that were distilled to their minimal form in order to create, to conceal within a unique language the fragments of a puzzle that is slowly assembled with each experiment. This process brings me closer to cutting-edge tools that blur the boundaries between artistic practice and computer science.
+una primera puesta en escena y extensión de mi universo de ficción y sus  posibilidades narrativas transmedia valiéndome de la web, usando JavaScript, CSS y HTML vainilla de la mano de Three.js como framework principal junto a ciertas funcionalidades con Tensorflow.js. Para crear las experiencias que no buscan solo ser juegos sino también espacios de creación y expresión, rincones de arte para explorar y reflexionar, un total de 9 que conoceremos a continuación.
+<br>
+
+**ADVERTENCIA: CONTIENE ALGUNOS SPOILERS** 
+<br>
+
+## **Portals Garden**
+<br>
+
+![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)
+<br>
+
+![Modal de Instrucciones](screenshots/portalsgarden/instructions.png)
+<br>
+
+El jardín de portales #1, nos muestra un poco de como se da la interacción para ingresar a las experiencias que aquí florecen.
+<br>
+
+## **Clean Squared Place**
+<br>
+
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)
+<br>
+
+Esta experiencia es la unica que no es en 3D. Consiste en despejar el Squared Place de las entidades atrapadas en el. Al completarse se obtiene un patrón para desbloquear otra experiencia: 
+<br>
+
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)
+<br>
+
+# **Nitrogenous Bases**
+<br>
+
+Una vez ingresado el código de acceso llegamos al ordenador molecular de bases nitrogenadas, en esta experiencia con drag and drop, organizamos las moléculas en uno de los 5 patrones correspondientes a cada una de las experiencias que se ocultan en el código de la vida.
+<br>
+
+![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)
+<br>
+
+# **Game Of Life**
+<br>
+
+Esta experiencia no te llevara mas allá de ella misma, ¿o tal vez si? El tradicional juego de la vida de John Horton Conway, es reinterpretado en 3D con la estética de mi preferencia para ofrecer un espacio de experimentación simple, de reflexión a través de lo que se visualiza y se interpreta desde estas formas simples que nos apelan a algo tan complejo como la vida. 
+<br>
+
+![Game of Life](screenshots/portalsgarden/gameoflife.webp)
+<br>
+
+# **AnothEarth**
+<br>
+
+Este es el portal principal del que se hilaran todas las experiencias y websites relacionadas con el universo de AnothEarth, actualmente enlaza únicamente a la sección del lore correspondiente en el website principal de NOXISTENCE
+<br>
+
+![AnothEarth](screenshots/portalsgarden/anothearth.webp)
+<br>
+
+# **Maxkodia Planet**
+<br>
+Esta experiencia funciona de forma similar sino idéntica a AntohEarth. 
+<br>
+
+![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)
+<br>
+
+# **Space Words**
+<br>
+
+En esta experiencia exploramos un poco de lo que una mirada al espacio capturada en NOXISTENCE tiene para decirnos sobre su captor. 
+<br>
+
+![Space Words](screenshots/portalsgarden/spacewords.webp)
+<br>
+
+# **Deep Space Encounter**
+<br>
+
+En esta experiencia nos enfrentamos a uno de los peligros del espacio para al borde de la muerte entender y encarar el poder de un circulo… 
+<br>
+
+![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)
+<br>
+
+# **Gardhan Thinker**
+<br>
+
+![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)
+<br>
+
+Aquí conocemos a un pensador de la especie Gardhan, atrapados entre sus pensamientos podemos interactuar con esta mente para abrir una experiencia que ya comienza a llevarnos a un rincon oscuro de NOXISTENCE…
+<br>
+
+# **Human Thinker**
+<br>
+
+![Human Thinker](screenshots/portalsgarden/humanthinker.webp)
+<br>
+
+Aquí yace un pensador humano, en un limbo de conceptos, ideas y visiones de una realidad difícil de comprender, ¿Qué tiene para revelarnos la mente humana?
+
+<br>

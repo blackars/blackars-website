@@ -5,7 +5,7 @@ description: "MiniBase is a versatile platform for managing miniatures, with pot
 abstract: "MiniBase is an innovative tool designed for collectors and miniature creators. Its purpose is to provide a centralized platform for managing a database of miniatures, including visual details, metadata, and lore. With an intuitive interface and specialized modules, users can efficiently import, export, edit, and visualize their collections. Additionally, its modular design paves the way for future integrations with AI models, enabling automated lore generation, narrative assistants, and simulations in RPG environments. Interoperability with standard formats facilitates expansion and collaboration. MiniBase is more than just a database—it’s a bridge between traditional organization and the limitless possibilities of modern technology."
 pubDate: 2025-04-08
 category: "software"
-id: 1
+id: "1"
 image: "/minibase_module.gif"
 slug: "minibase"
 
