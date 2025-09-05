@@ -6,7 +6,7 @@ abstract: "Portals Garden is an innovative 3D web experience that serves as the 
 pubDate: 2025-9-02
 category: "software"
 id: "2"
-image: "/src/content/project/screenshots/portalsgarden/portalsgarden.webp"
+image: "src/content/project/screenshots/portalsgarden/portalsgarden.webp"
 slug: "portals-garden"
 
 ---
