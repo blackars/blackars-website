@@ -11,126 +11,125 @@ slug: "portals-garden"
 
 ---
 
-Tecnologías: JavaScript, CSS, HTML, Three.js & Tensorflow.js
-* **[ Aqui el repositorio del proyecto](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
+Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js  
+* **[ Here is the project repository](https://github.com/blackars/NOXISTENCE-PortalsGarden)**  
 <br>
 
-Visita y explora la experiencia compelta en:**[Portals Garden](https://portalsgarden.netlify.app)**
+Visit and explore the complete experience at: **[Portals Garden](https://portalsgarden.netlify.app)**
 
 <br>
-
-
 <br>
 
 # **Portals Garden**
 <br>
 
-_Al interior de NOXISTENCE, existen espacios donde florecen muchos otros lugares y pueden ser encontrados caminos a existencias complejas atrapadas en este limbo. Estos jardines no son puntos aislados pues resulta evidente que les une algo, son caminos a todo lo que la inexistencia aquí captura, pero también son en si mismos senderos que develan de a poco los secretos que aquí se esconden._ 
+_Within NOXISTENCE, there are spaces where many other places bloom and where paths to complex existences trapped in this limbo can be found. These gardens are not isolated points; it is evident that something connects them. They are paths to everything that nonexistence captures here, but they are also trails that gradually unveil the secrets hidden within._  
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.png)
+![Portals Garden](screenshots/portalsgarden/portalsgarden.png)  
 <br>
 
-Portals Garden 001, es el primer cumulo de experiencias relacionadas al universo narrativo que introduzco en el anterior blog;**[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. En este jardín de portales se comienza a explorar las historias detrás de parajes, criaturas y tantas otras cosas propias del lore es este universo. 
+Portals Garden 001 is the first cluster of experiences related to the narrative universe I introduced in the previous blog: **[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. In this garden of portals, the exploration of stories behind landscapes, creatures, and many other aspects of the lore of this universe begins.  
 
-una primera puesta en escena y extensión de mi universo de ficción y sus  posibilidades narrativas transmedia valiéndome de la web, usando JavaScript, CSS y HTML vainilla de la mano de Three.js como framework principal junto a ciertas funcionalidades con Tensorflow.js. Para crear las experiencias que no buscan solo ser juegos sino también espacios de creación y expresión, rincones de arte para explorar y reflexionar, un total de 9 que conoceremos a continuación.
+It is a first staging and extension of my fictional universe and its transmedia narrative possibilities through the web, using JavaScript, CSS, and vanilla HTML with Three.js as the main framework, along with certain Tensorflow.js functionalities. The goal is to create experiences that are not just games but also spaces of creation and expression—corners of art to explore and reflect upon—a total of 9, which we will discover below.  
 <br>
 
-**ADVERTENCIA: CONTIENE ALGUNOS SPOILERS** 
+**WARNING: CONTAINS SOME SPOILERS**  
 <br>
 
 ## **Portals Garden**
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)
+![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)  
 <br>
 
-![Modal de Instrucciones](screenshots/portalsgarden/instructions.png)
+![Instructions Modal](screenshots/portalsgarden/instructions.png)  
 <br>
 
-El jardín de portales #1, nos muestra un poco de como se da la interacción para ingresar a las experiencias que aquí florecen.
+The first garden of portals shows us a glimpse of how interaction works to enter the experiences that bloom here.  
 <br>
 
 ## **Clean Squared Place**
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)  
 <br>
 
-Esta experiencia es la unica que no es en 3D. Consiste en despejar el Squared Place de las entidades atrapadas en el. Al completarse se obtiene un patrón para desbloquear otra experiencia: 
+This experience is the only one that is not in 3D. It consists of clearing the Squared Place of the entities trapped in it. Upon completion, a pattern is obtained to unlock another experience:  
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)
+![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)  
 <br>
 
 # **Nitrogenous Bases**
 <br>
 
-Una vez ingresado el código de acceso llegamos al ordenador molecular de bases nitrogenadas, en esta experiencia con drag and drop, organizamos las moléculas en uno de los 5 patrones correspondientes a cada una de las experiencias que se ocultan en el código de la vida.
+Once the access code is entered, we arrive at the molecular computer of nitrogenous bases. In this drag-and-drop experience, we organize the molecules into one of the 5 patterns corresponding to each of the experiences hidden in the code of life.  
 <br>
 
-![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)
+![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)  
 <br>
 
 # **Game Of Life**
 <br>
 
-Esta experiencia no te llevara mas allá de ella misma, ¿o tal vez si? El tradicional juego de la vida de John Horton Conway, es reinterpretado en 3D con la estética de mi preferencia para ofrecer un espacio de experimentación simple, de reflexión a través de lo que se visualiza y se interpreta desde estas formas simples que nos apelan a algo tan complejo como la vida. 
+This experience will not take you beyond itself—or will it? John Horton Conway’s traditional Game of Life is reinterpreted in 3D with my preferred aesthetic, offering a simple space for experimentation, reflection through what is visualized, and interpretations of these simple forms that appeal to something as complex as life.  
 <br>
 
-![Game of Life](screenshots/portalsgarden/gameoflife.webp)
+![Game of Life](screenshots/portalsgarden/gameoflife.webp)  
 <br>
 
 # **AnothEarth**
 <br>
 
-Este es el portal principal del que se hilaran todas las experiencias y websites relacionadas con el universo de AnothEarth, actualmente enlaza únicamente a la sección del lore correspondiente en el website principal de NOXISTENCE
+This is the main portal from which all experiences and websites related to the AnothEarth universe will be woven. Currently, it only links to the corresponding lore section on the main NOXISTENCE website.  
 <br>
 
-![AnothEarth](screenshots/portalsgarden/anothearth.webp)
+![AnothEarth](screenshots/portalsgarden/anothearth.webp)  
 <br>
 
 # **Maxkodia Planet**
 <br>
-Esta experiencia funciona de forma similar sino idéntica a AntohEarth. 
+
+This experience works in a similar, if not identical, way to AnothEarth.  
 <br>
 
-![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)
+![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)  
 <br>
 
 # **Space Words**
 <br>
 
-En esta experiencia exploramos un poco de lo que una mirada al espacio capturada en NOXISTENCE tiene para decirnos sobre su captor. 
+In this experience, we explore a glimpse of what a gaze into space captured in NOXISTENCE has to tell us about its captor.  
 <br>
 
-![Space Words](screenshots/portalsgarden/spacewords.webp)
+![Space Words](screenshots/portalsgarden/spacewords.webp)  
 <br>
 
 # **Deep Space Encounter**
 <br>
 
-En esta experiencia nos enfrentamos a uno de los peligros del espacio para al borde de la muerte entender y encarar el poder de un circulo… 
+In this experience, we face one of the dangers of space—at the edge of death—to understand and confront the power of a circle…  
 <br>
 
-![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)
+![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)  
 <br>
 
 # **Gardhan Thinker**
 <br>
 
-![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)
+![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)  
 <br>
 
-Aquí conocemos a un pensador de la especie Gardhan, atrapados entre sus pensamientos podemos interactuar con esta mente para abrir una experiencia que ya comienza a llevarnos a un rincon oscuro de NOXISTENCE…
+Here we meet a thinker of the Gardhan species. Trapped within its thoughts, we can interact with this mind to open an experience that already begins to lead us into a dark corner of NOXISTENCE…  
 <br>
 
 # **Human Thinker**
 <br>
 
-![Human Thinker](screenshots/portalsgarden/humanthinker.webp)
+![Human Thinker](screenshots/portalsgarden/humanthinker.webp)  
 <br>
 
-Aquí yace un pensador humano, en un limbo de conceptos, ideas y visiones de una realidad difícil de comprender, ¿Qué tiene para revelarnos la mente humana?
+Here lies a human thinker, in a limbo of concepts, ideas, and visions of a reality difficult to grasp. What does the human mind have to reveal to us?  
 
 <br>
