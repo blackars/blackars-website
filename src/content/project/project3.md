@@ -6,7 +6,7 @@ abstract: "this project is an installation born from the research project A/R/To
 pubDate: 2024-06-06
 category: "technology"
 id: "3"
-image: "/neural.gif"
+image: "/neural.webp"
 slug: "artificial-mind-prototype1"
 ---
 **About the Creation into Process of the Installation**
@@ -34,7 +34,7 @@ Some key frames of the experimetal short films. Can you see the full video **[HE
 * **Piece 3 - Interactive Mapping:** An installation featuring video mapping and a webcam that responds to audience interaction. It represents a particle system where each element symbolizes data collected in the research, exploring surveillance and the visual reinterpretation of information.
 
 
-![PIECE 3 interactive cube](screenshots/piece3.gif)
+![PIECE 3 interactive cube](screenshots/piece3.webp)
 The interactive video projection that moves in the direction of the movement detected by a camera.
 
 In these three pieces, only some of the visual elements obtained through 'creative encryption'—used to safeguard data—are incorporated, along with experiences gathered during the teaching of processes. All of this material has been repurposed across different works, experimenting repeatedly with those essential concepts that were distilled to their minimal form in order to create, to conceal within a unique language the fragments of a puzzle that is slowly assembled with each experiment. This process brings me closer to cutting-edge tools that blur the boundaries between artistic practice and computer science.

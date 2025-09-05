@@ -6,7 +6,7 @@ abstract: "MiniBase is an innovative tool designed for collectors and miniature 
 pubDate: 2025-04-08
 category: "software"
 id: "1"
-image: "/minibase_module.gif"
+image: "/minibase_module.webp"
 slug: "minibase"
 
 ---
