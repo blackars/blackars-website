@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "Portals Garden"
-description: "."
-abstract: "Portals Garden 001 ........... "
-pubDate: 2025-04-08
+description: "Portals Garden is a 3D web experience built with Three.js and TensorFlow.js that serves as the first interactive gateway into the NOXISTENCE universe."
+abstract: "Portals Garden is an innovative 3D web experience that serves as the first visual narrative gateway into the NOXISTENCE universe. Built with Three.js and enhanced with TensorFlow.js capabilities, this immersive digital garden allows users to explore interconnected portals that reveal fragments of impossible realities trapped within the plane of nonexistence. Each portal contains unique interactive experiences—from molecular DNA base sequencing and Conway's Game of Life in 3D, to encounters with alien consciousness and deep space phenomena. More than just a collection of experiences, Portals Garden functions as a transmedia bridge where philosophy meets technology, creating contemplative spaces for exploration and reflection. Its modular architecture paves the way for future expansions of the NOXISTENCE lore, where each new portal becomes a window into the ontological mysteries of beings and places that exist only because they cannot exist anywhere else."
+pubDate: 2025-9-02
 category: "software"
 id: "2"
-image: "/portalsgarden.webp"
+image: "screenshots/portalsgarden/portalsgarden.webp"
 slug: "portals-garden"
 
 ---
