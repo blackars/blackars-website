@@ -6,12 +6,12 @@ abstract: "Portals Garden is an innovative 3D web experience that serves as the 
 pubDate: 2025-9-02
 category: "software"
 id: "2"
-image: "screenshots/portalsgarden/portalsgarden.webp"
+image: "/src/content/project/screenshots/portalsgarden/portalsgarden.webp"
 slug: "portals-garden"
 
 ---
 
-Technologias: JavaScript, CSS, HTML, Three.js & Tensorflow.js
+Tecnologías: JavaScript, CSS, HTML, Three.js & Tensorflow.js
 * **[ Aqui el repositorio del proyecto](https://github.com/blackars/NOXISTENCE-PortalsGarden)**
 <br>
 
