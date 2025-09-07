@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
-title: "About NOXISTENCE"
+title: "Sobre NOXISTENCE (Español)"
 description: ""
-pubDate: 2025-05-06
+pubDate: 2025-05-15
 category: "Creation"
 id: "2"
 ---
