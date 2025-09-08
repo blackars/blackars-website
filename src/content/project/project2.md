@@ -12,12 +12,12 @@ slug: "portals-garden"
 ---
 
 Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js  
-* **[ Here is the project repository](https://github.com/blackars/NOXISTENCE-PortalsGarden)**  
+* <a href="https://github.com/blackars/NOXISTENCE-PortalsGarden" target="_blank" rel="noopener noreferrer"><strong>Here is the project repository</strong></a>  
 <br>
 
-Visit and explore the complete experience at: **[Portals Garden](https://portalsgarden.netlify.app)**
+Visit and explore the complete experience at:  
+* <a href="https://portalsgarden.netlify.app" target="_blank" rel="noopener noreferrer"><strong>Portals Garden</strong></a>
 
-<br>
 <br>
 
 # **Portals Garden**
