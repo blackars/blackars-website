@@ -36,7 +36,7 @@ Every feature was carefully crafted to feel like a natural extension of the worl
 * **DevOps:** Docker, GitHub Actions, Google Cloud Run
 <br>
 
-## **About Project Functionality
+## **About Project Functionality**
 <br>
 
 * **Creature Management (Full CRUD)** – Create, edit, and explore digital entities.
@@ -46,10 +46,10 @@ Every feature was carefully crafted to feel like a natural extension of the worl
 * **Responsive by Design** – Crafted to look and feel great on any device.
 <br>
 
-![NOXISTENCE Creator's Playground](https://res.cloudinary.com/dgff8o52c/image/upload/CreationCanvas_adrt57.webp)  
+In the editor, .JSON files are generated—each representing a creature sheet. These files are automatically rendered when opening a specific creature, or when navigating to the Collections or Lore sections within the project.
 <br>
 
-In the editor, .JSON files are generated—each representing a creature sheet. These files are automatically rendered when opening a specific creature, or when navigating to the Collections or Lore sections within the project.
+![NOXISTENCE Creator's Playground](https://res.cloudinary.com/dgff8o52c/image/upload/CreationCanvas_adrt57.webp)  
 <br>
 
 ![NOXISTENCE Create Creature](https://res.cloudinary.com/dgff8o52c/image/upload/CreationProcess_gwtlzz.webp)  
