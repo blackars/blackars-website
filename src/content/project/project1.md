@@ -6,7 +6,7 @@ abstract: "NOXISTENCE is a modular, full-stack web platform designed to manage, 
 pubDate: 2025-4-03
 category: "software"
 id: "1"
-image: ""
+image: "/portalsgarden.webp"
 slug: "noxistence-website"
 
 ---
