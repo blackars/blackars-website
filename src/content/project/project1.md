@@ -6,14 +6,10 @@ abstract: "NOXISTENCE is a modular, full-stack web platform designed to manage, 
 pubDate: 2025-4-03
 category: "software"
 id: "1"
-image: "/portalsgarden.webp"
+image: "https://res.cloudinary.com/dgff8o52c/image/upload/NOXISTENCE-Landingpaage_g5dp1o.webp"
 slug: "noxistence-website"
 
 ---
-
- #  NOXISTENCE Website  
-<br>
-
 Creature and Content Management Platform - Visit and Explore <a href="https://noxistence-site-867269891625.us-central1.run.app/index.html" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>
 <br>
 
@@ -29,6 +25,17 @@ This is my most complete and ambitious software project to date: a platform desi
 Every feature was carefully crafted to feel like a natural extension of the world it represents, turning the platform itself into part of the lore, a place where code becomes ritual and every interaction feels like stepping deeper into the mythos of NOXISTENCE.
 <br>
 
+![NOXISTENCE CODEX NOX](https://res.cloudinary.com/dgff8o52c/image/upload/CodexNox_fnx9bf.webp)  
+<br>
+
+## **Tech Stack**
+<br>
+
+* **Frontend:** Vite, Three.js, GSAP, Lenis
+* **Backend:** Node.js, Express, Cloudinary
+* **DevOps:** Docker, GitHub Actions, Google Cloud Run
+<br>
+
 ## **About Project Functionality
 <br>
 
@@ -39,16 +46,15 @@ Every feature was carefully crafted to feel like a natural extension of the worl
 * **Responsive by Design** – Crafted to look and feel great on any device.
 <br>
 
-![NOXISTENCE AllPagesGIF](https://noxistence-site-867269891625.us-central1.run.app/index.html)  
+![NOXISTENCE Creator's Playground](https://res.cloudinary.com/dgff8o52c/image/upload/CreationCanvas_adrt57.webp)  
 <br>
 
-## **Tech Stack**
+In the editor, .JSON files are generated—each representing a creature sheet. These files are automatically rendered when opening a specific creature, or when navigating to the Collections or Lore sections within the project.
 <br>
 
-* **Frontend:** Vite, Three.js, GSAP, Lenis
-* **Backend:** Node.js, Express, Cloudinary
-* **DevOps:** Docker, GitHub Actions, Google Cloud Run
+![NOXISTENCE Create Creature](https://res.cloudinary.com/dgff8o52c/image/upload/CreationProcess_gwtlzz.webp)  
 <br>
+
 
 With this ecosystem, the site can run in containers, update automatically, and scale effortlessly in the cloud
 <br>
@@ -64,6 +70,9 @@ This project is not merely a technical experiment—it's part of a continuously 
 <br>
 
 This project is protected under the CC BY-NC-ND 4.0 license, which means the final product may be shared, but commercial use and the creation of derivative works are not allowed without explicit permission from the author.
+
+<br>
+
 <br>
 
 
