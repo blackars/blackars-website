@@ -1,135 +1,69 @@
 ---
 layout: ../../layouts/LayoutBlogPost.astro
 title: "NOXISTENCE Website"
-description: "Portals Garden is a 3D web experience built with Three.js and TensorFlow.js that serves as the first interactive gateway into the NOXISTENCE universe."
-abstract: "Portals Garden is an innovative 3D web experience that serves as the first visual narrative gateway into the NOXISTENCE universe. Built with Three.js and enhanced with TensorFlow.js capabilities, this immersive digital garden allows users to explore interconnected portals that reveal fragments of impossible realities trapped within the plane of nonexistence. Each portal contains unique interactive experiences—from molecular DNA base sequencing and Conway's Game of Life in 3D, to encounters with alien consciousness and deep space phenomena. More than just a collection of experiences, Portals Garden functions as a transmedia bridge where philosophy meets technology, creating contemplative spaces for exploration and reflection. Its modular architecture paves the way for future expansions of the NOXISTENCE lore, where each new portal becomes a window into the ontological mysteries of beings and places that exist only because they cannot exist anywhere else."
+description: "A modular web platform built with JS, HTML, CSS, Three.js, Vite, and Docker that serves as the central creative infrastructure for managing and expanding the NOXISTENCE universe"
+abstract: "NOXISTENCE is a modular, full-stack web platform designed to manage, visualize, and expand the fictional universe of NOXISTENCE. Built with Web technologies JS, HTML, CSS, Three.js, Vite, and Docker, it merges technical precision with immersive design to offer a responsive interface for creature creation, lore curation, and multimedia asset orchestration. Users can explore a living digital bestiary, interact with curated collections, and generate visual content through automated pipelines. With secure authentication, cloud-based media handling via Cloudinary, and scalable deployment on Google Cloud Run, NOXISTENCE functions as both archive and showcase—a transmedia tool for storytelling, worldbuilding, and creative expression. Its architecture supports future expansions, allowing new modules to emerge organically within the evolving mythos of beings and phenomena that inhabit the realm of nonexistence."
 pubDate: 2025-4-03
 category: "software"
 id: "1"
-image: "/portalsgarden.webp"
+image: ""
 slug: "noxistence-website"
 
 ---
 
- # NOXISTENCE Website  
+ #  NOXISTENCE Website  
 <br>
 
 Creature and Content Management Platform - Visit and Explore <a href="https://noxistence-site-867269891625.us-central1.run.app/index.html" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>
 <br>
 
 GitHub Repository:<a href="https://portalsgarden.netlify.app" target="_blank" rel="noopener noreferrer"><strong>NOXISTENCE-site</strong></a>
-
 <br>
-
 
 This is my most complete and ambitious software project to date: a platform designed to create, organize, visualize, and expand content from my fictional universe, NOXISTENCE. It combines a solid technical foundation with a modern, responsive design—aiming not only to be functional, but also immersive and faithful to its aesthetic and narrative principles.
-
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.png)  
+![NOXISTENCE Landingpage]()  
 <br>
 
-Portals Garden 001 is the first cluster of experiences related to the narrative universe I introduced in the previous blog: **[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. In this garden of portals, the exploration of stories behind landscapes, creatures, and many other aspects of the lore of this universe begins.  
-
-It is a first staging and extension of my fictional universe and its transmedia narrative possibilities through the web, using JavaScript, CSS, and vanilla HTML with Three.js as the main framework, along with certain Tensorflow.js functionalities. The goal is to create experiences that are not just games but also spaces of creation and expression—corners of art to explore and reflect upon—a total of 9, which we will discover below.  
+Every feature was carefully crafted to feel like a natural extension of the world it represents, turning the platform itself into part of the lore, a place where code becomes ritual and every interaction feels like stepping deeper into the mythos of NOXISTENCE.
 <br>
 
-**WARNING: CONTAINS SOME SPOILERS**  
+## **About Project Functionality
 <br>
 
-## **Portals Garden**
+* **Creature Management (Full CRUD)** – Create, edit, and explore digital entities.
+* **Animations and UI Design** – Built with GSAP and Lenis to achieve smooth transitions and fluid navigation.
+* **Cloud Integration** – Media management handled via Cloudinary.
+* **Secure Authentication** – Protected and scalable access system.
+* **Responsive by Design** – Crafted to look and feel great on any device.
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)  
+![NOXISTENCE AllPagesGIF]()  
 <br>
 
-![Instructions Modal](screenshots/portalsgarden/instructions.png)  
+## **Tech Stack**
 <br>
 
-The first garden of portals shows us a glimpse of how interaction works to enter the experiences that bloom here.  
+* **Frontend:** Vite, Three.js, GSAP, Lenis
+* **Backend:** Node.js, Express, Cloudinary
+* **DevOps:** Docker, GitHub Actions, Google Cloud Run
 <br>
 
-## **Clean Squared Place**
+With this ecosystem, the site can run in containers, update automatically, and scale effortlessly in the cloud
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)  
+
+## **More Than Just Code**
 <br>
 
-This experience is the only one that is not in 3D. It consists of clearing the Squared Place of the entities trapped in it. Upon completion, a pattern is obtained to unlock another experience:  
+This project is not merely a technical experiment—it's part of a continuously expanding narrative universe. NOXISTENCE serves as both an archive and showcase for creatures, stories, and collections, opening the door to building a living, modular digital bestiary within its world. It’s a tool for expressing and sharing my creativity, and for breathing life into my characters.
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)  
+## **License**
 <br>
 
-# **Nitrogenous Bases**
+This project is protected under the CC BY-NC-ND 4.0 license, which means the final product may be shared, but commercial use and the creation of derivative works are not allowed without explicit permission from the author.
 <br>
 
-Once the access code is entered, we arrive at the molecular computer of nitrogenous bases. In this drag-and-drop experience, we organize the molecules into one of the 5 patterns corresponding to each of the experiences hidden in the code of life.  
-<br>
 
-![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)  
-<br>
-
-# **Game Of Life**
-<br>
-
-This experience will not take you beyond itself—or will it? John Horton Conway’s traditional Game of Life is reinterpreted in 3D with my preferred aesthetic, offering a simple space for experimentation, reflection through what is visualized, and interpretations of these simple forms that appeal to something as complex as life.  
-<br>
-
-![Game of Life](screenshots/portalsgarden/gameoflife.webp)  
-<br>
-
-# **AnothEarth**
-<br>
-
-This is the main portal from which all experiences and websites related to the AnothEarth universe will be woven. Currently, it only links to the corresponding lore section on the main NOXISTENCE website.  
-<br>
-
-![AnothEarth](screenshots/portalsgarden/anothearth.webp)  
-<br>
-
-# **Maxkodia Planet**
-<br>
-
-This experience works in a similar, if not identical, way to AnothEarth.  
-<br>
-
-![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)  
-<br>
-
-# **Space Words**
-<br>
-
-In this experience, we explore a glimpse of what a gaze into space captured in NOXISTENCE has to tell us about its captor.  
-<br>
-
-![Space Words](screenshots/portalsgarden/spacewords.webp)  
-<br>
-
-# **Deep Space Encounter**
-<br>
-
-In this experience, we face one of the dangers of space—at the edge of death—to understand and confront the power of a circle…  
-<br>
-
-![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)  
-<br>
-
-# **Gardhan Thinker**
-<br>
-
-![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)  
-<br>
-
-Here we meet a thinker of the Gardhan species. Trapped within its thoughts, we can interact with this mind to open an experience that already begins to lead us into a dark corner of NOXISTENCE…  
-<br>
-
-# **Human Thinker**
-<br>
-
-![Human Thinker](screenshots/portalsgarden/humanthinker.webp)  
-<br>
-
-Here lies a human thinker, in a limbo of concepts, ideas, and visions of a reality difficult to grasp. What does the human mind have to reveal to us?  
-
-<br>
