@@ -50,7 +50,6 @@ In the editor, .JSON files are generated—each representing a creature sheet. T
 <br>
 
 ![NOXISTENCE Creator's Playground](https://res.cloudinary.com/dgff8o52c/image/upload/CreationCanvas_adrt57.webp)  
-<br>
 
 ![NOXISTENCE Create Creature](https://res.cloudinary.com/dgff8o52c/image/upload/CreationProcess_gwtlzz.webp)  
 <br>
