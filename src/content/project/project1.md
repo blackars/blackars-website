@@ -23,7 +23,7 @@ GitHub Repository:<a href="https://github.com/blackars/NOXISTENCE-site" target="
 This is my most complete and ambitious software project to date: a platform designed to create, organize, visualize, and expand content from my fictional universe, NOXISTENCE. It combines a solid technical foundation with a modern, responsive design—aiming not only to be functional, but also immersive and faithful to its aesthetic and narrative principles.
 <br>
 
-![NOXISTENCE Landingpage](https://noxistence-site-867269891625.us-central1.run.app/index.html)  
+![NOXISTENCE-Landingpage](https://res.cloudinary.com/dgff8o52c/image/upload/NOXISTENCE-Landingpaage_g5dp1o.webp)  
 <br>
 
 Every feature was carefully crafted to feel like a natural extension of the world it represents, turning the platform itself into part of the lore, a place where code becomes ritual and every interaction feels like stepping deeper into the mythos of NOXISTENCE.
