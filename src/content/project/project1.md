@@ -17,13 +17,13 @@ slug: "noxistence-website"
 Creature and Content Management Platform - Visit and Explore <a href="https://noxistence-site-867269891625.us-central1.run.app/index.html" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>
 <br>
 
-GitHub Repository:<a href="https://portalsgarden.netlify.app" target="_blank" rel="noopener noreferrer"><strong>NOXISTENCE-site</strong></a>
+GitHub Repository:<a href="https://github.com/blackars/NOXISTENCE-site" target="_blank" rel="noopener noreferrer"><strong>NOXISTENCE-site</strong></a>
 <br>
 
 This is my most complete and ambitious software project to date: a platform designed to create, organize, visualize, and expand content from my fictional universe, NOXISTENCE. It combines a solid technical foundation with a modern, responsive design—aiming not only to be functional, but also immersive and faithful to its aesthetic and narrative principles.
 <br>
 
-![NOXISTENCE Landingpage]()  
+![NOXISTENCE Landingpage](https://noxistence-site-867269891625.us-central1.run.app/index.html)  
 <br>
 
 Every feature was carefully crafted to feel like a natural extension of the world it represents, turning the platform itself into part of the lore, a place where code becomes ritual and every interaction feels like stepping deeper into the mythos of NOXISTENCE.
@@ -39,7 +39,7 @@ Every feature was carefully crafted to feel like a natural extension of the worl
 * **Responsive by Design** – Crafted to look and feel great on any device.
 <br>
 
-![NOXISTENCE AllPagesGIF]()  
+![NOXISTENCE AllPagesGIF](https://noxistence-site-867269891625.us-central1.run.app/index.html)  
 <br>
 
 ## **Tech Stack**
