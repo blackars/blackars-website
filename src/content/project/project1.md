@@ -10,10 +10,10 @@ image: "https://res.cloudinary.com/dgff8o52c/image/upload/NOXISTENCE-Landingpaag
 slug: "noxistence-website"
 
 ---
-Creature and Content Management Platform - Visit and Explore <a href="https://noxistence-site-867269891625.us-central1.run.app/index.html" target="_blank" rel="noopener noreferrer"><strong>HERE</strong></a>
+Creature and Content Management Platform - Visit and Explore <a href="https://noxistence-site-867269891625.us-central1.run.app/index.html" target="_blank" rel="noopener noreferrer"><strong>→ HERE ←</strong></a>
 <br>
 
-GitHub Repository:<a href="https://github.com/blackars/NOXISTENCE-site" target="_blank" rel="noopener noreferrer"><strong>NOXISTENCE-site</strong></a>
+GitHub Repository:<a href="https://github.com/blackars/NOXISTENCE-site" target="_blank" rel="noopener noreferrer"><strong>→ NOXISTENCE-site ←</strong></a>
 <br>
 
 This is my most complete and ambitious software project to date: a platform designed to create, organize, visualize, and expand content from my fictional universe, NOXISTENCE. It combines a solid technical foundation with a modern, responsive design—aiming not only to be functional, but also immersive and faithful to its aesthetic and narrative principles.
