@@ -5,7 +5,7 @@ description: "Artificial Mind: Prototype 1 explores the intersection of art and 
 abstract: "this project is an installation born from the research project A/R/Tography Between the Arts and Computer Sciences. It explores the relationship between art and technology, analyzing the role of digital tools in artistic creation. Developed within the Visual Arts Degree at Universidad del Valle, it reflects on AI’s transformative impact on art and everyday life. The three-piece installation follows the project's research structure, growing in complexity and integrating new media. It envisions a future where digital aesthetics and AI reshape sensory perception, pushing artistic creation into new dimensions."
 pubDate: 2024-06-06
 category: "technology"
-id: "3"
+id: "4"
 image: "/neural.webp"
 slug: "artificial-mind-prototype1"
 ---
