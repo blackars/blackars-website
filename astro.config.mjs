@@ -13,7 +13,10 @@ export default defineConfig({
   site: "https://blackars.com",
   integrations: [
     icon(),
-    sitemap(),
+    sitemap({
+      customPages: ['https://blackars.com/'],
+      filter: (page) => !page.includes('/admin/'),
+    }),
     robotsTxt({
       sitemap: [
         "https://blackars.com/sitemap-index.xml",
