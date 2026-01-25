@@ -16,7 +16,10 @@ Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js
 <br>
 
 ## **System Architecture Diagram**
-![System Architecture Diagram](https://res.cloudinary.com/dgff8o52c/image/upload/Portals_Garden_Architecture_cn2hn2.jpg)
+
+<br>
+
+![System Architecture Diagram](https://res.cloudinary.com/dgff8o52c/image/upload/NOXISTENCE_Main_Website_Architeture_qljcby.jpg)
 <br>
 
 
