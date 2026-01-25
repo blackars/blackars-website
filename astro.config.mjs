@@ -15,8 +15,25 @@ export default defineConfig({
     icon(),
     sitemap({
       customPages: ['https://blackars.com/'],
-      filter: (page) => !page.includes('/admin/'),
-    }),
+      filter: (page) => {
+    // Explicitly exclude common non-page routes
+    const exclude = [
+      '/admin/',
+      '/api/',
+      '/404',
+      '/500',
+      '/_image',
+      '/_astro/'
+    ];
+    return !exclude.some(path => page.includes(path));
+  },
+  // Add explicit entry points for your pages
+  entryPoints: [
+    '/',
+    '/projects/',
+    // Add other main routes here
+  ]
+}),
     robotsTxt({
       sitemap: [
         "https://blackars.com/sitemap-index.xml",
@@ -32,4 +49,7 @@ export default defineConfig({
   },
   output: "server",
   adapter: netlify(),
+  experimental: {
+  contentCollectionCache: true,
+}
 });
