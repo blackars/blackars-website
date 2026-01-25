@@ -46,6 +46,11 @@ Every feature was carefully crafted to feel like a natural extension of the worl
 * **Responsive by Design** – Crafted to look and feel great on any device.
 <br>
 
+
+## **System Architecture Diagram**
+![System Architecture Diagram](https://res.cloudinary.com/dgff8o52c/image/upload/NOXISTENCE_Main_Website_Architeture_qljcby.jpg)
+<br>
+
 In the editor, .JSON files are generated—each representing a creature sheet. These files are automatically rendered when opening a specific creature, or when navigating to the Collections or Lore sections within the project.
 <br>
 

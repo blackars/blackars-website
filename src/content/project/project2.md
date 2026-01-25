@@ -15,6 +15,11 @@ Technologies: JavaScript, CSS, HTML, Three.js & Tensorflow.js
 * <a href="https://github.com/blackars/NOXISTENCE-PortalsGarden" target="_blank" rel="noopener noreferrer"><strong>→ Click here to vie the code repository ←</strong></a>  
 <br>
 
+## **System Architecture Diagram**
+![System Architecture Diagram](https://res.cloudinary.com/dgff8o52c/image/upload/Portals_Garden_Architecture_cn2hn2.jpg)
+<br>
+
+
 Visit and explore the complete experience at:  
 * <a href="https://portalsgarden.netlify.app" target="_blank" rel="noopener noreferrer"><strong>→ Portals Garden ←</strong></a>
 
@@ -33,6 +38,7 @@ Portals Garden 001 is the first cluster of experiences related to the narrative 
 
 It is a first staging and extension of my fictional universe and its transmedia narrative possibilities through the web, using JavaScript, CSS, and vanilla HTML with Three.js as the main framework, along with certain Tensorflow.js functionalities. The goal is to create experiences that are not just games but also spaces of creation and expression—corners of art to explore and reflect upon—a total of 9, which we will discover below.  
 <br>
+
 
 **WARNING: CONTAINS SOME SPOILERS**  
 <br>
