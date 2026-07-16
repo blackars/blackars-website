@@ -59,16 +59,20 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 
 # **Tech Stack**
 <br>
+## Technical Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Engine | Ren'Py 8.0+ |
-| Resolution | 1920x1080 (Full HD) |
-| Audio | OGG Vorbis (ambient & sfx) |
-| Graphics | WebP sprites & backgrounds |
-| Video | WebM embedded cutscenes |
-| Scripting | Ren'Py `.rpy` (Python-based DSL) |
-| Platforms | Windows / macOS / Linux / Android / Web |
+- **Engine:** Ren'Py 8.0+
+- **Resolution:** 1920×1080 (Full HD)
+- **Audio:** OGG Vorbis (ambient & SFX)
+- **Graphics:** WebP sprites & backgrounds
+- **Video:** WebM embedded cutscenes
+- **Scripting:** Ren'Py `.rpy` (Python-based DSL)
+- **Platforms:**
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - Web
 <br>
 
 # **More Than Just a Visual Novel**
@@ -82,5 +86,5 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 
 All rights reserved © 2026 — Momo: Time-Huntress.
 
-
+<br>
 
