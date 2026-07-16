@@ -40,16 +40,33 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 <br>
 
 **Momo** — *The last huntress of a consumed world.* Fierce, scarred, and relentless. She carries the weight of a reality already erased by the Grey Gentlemen. She speaks to Cassiopeia as if reading her silence, finds beauty in ruins, and sharpens her grief into a blade.
+<br>
+
+![Momo Time Huntress Cover](https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/momo/momo_fb_neutral.webp)
+
+<br>
 
 **Cassiopeia** — *A silent presence that speaks in symbols.* She never speaks — but Momo understands every silence. She traces mysterious symbols in the air, feels vibrations before anomalies arrive, and seems to know more than she lets on.
+<br>
+
+![Momo Time Huntress Cover](/https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/casiopeia/cas_right.webp)
+
+<br>
 
 **The Grey Gentlemen Anomaly** — *They do not hunt like beasts. They calculate.* Beings from beyond reality that consume time itself. Each arrival leaves a crater. Each word is a distorted echo. They claim to be searching for something more powerful — or fleeing from it.
+<br>
+
+![Momo Time Huntress Cover](https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/grayg/grayg_fb_left.webp)
+
 <br>
 
 ## **Features**
 <br>
 
-- **Full HD Visuals** — hand-drawn backgrounds and sprites at 1920x1080.
+Many of these contents were made with free generative AI models.
+<br>
+
+- **Full HD Visuals** — AI generated backgrounds and sprites at 1920x1080.
 - **Cinematic Cutscenes** — embedded video sequences for key story moments.
 - **Original Soundtrack** — ambient dark fantasy audio scoring.
 - **Dialogue Choices** — branching narrative with meaningful decisions.
@@ -77,7 +94,7 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 # **More Than Just a Visual Novel**
 <br>
 
-*Momo: Time-Huntress* isn't only an exercise in narrative game design — it's the first fragment of a larger reflection on time, loss, and what consumes both. The Grey Gentlemen are not simple monsters; they are a symbol, a question dressed as an anomaly. This project opens the door to a mythology that will keep expanding across future works, exploring what happens when the invisible force that defines us becomes the enemy.
+*Momo: Time-Huntress* isn't only an exercise in narrative game design — it's the first fragment of a larger reflection on time, loss, and what consumes both. The Grey Gentlemen are not simple monsters; they are a symbol, a question dressed as an anomaly. This project opens the door to a mythology that will keep expanding across <a href="https://blackars.com/projects/noxistence-website" target="_blank" rel="noopener noreferrer"><strong>NOXISTENCE</strong></a> and other future works, exploring what happens when the invisible force that defines us becomes the enemy.
 <br>
 
 # **License**
