@@ -39,51 +39,51 @@ The project begins with MiniBase, an innovative tool designed for collectors,cre
 
 MiniBase is based on an intuitive graphical interface developed with Tkinter, which guides the user through the following main functionalities.
 
-![home screen empty](screenshots/minibase/home_screen_empty.webp)
+![home screen empty](./screenshots/minibase/home_screen_empty.webp)
 
 
 **Miniature Creation**
 
 Users can add new miniature to the database, specifying attributes such as name, tags, materials, colors, etc., all in the creation module (creation_module.py).
 
-![creation module screen 1](screenshots/minibase/creation_module1.2.webp)
-![creation module screen 2](screenshots/minibase/creation_module2.3.webp)
-![creation module screen 3](screenshots/minibase/creation_module3.2.webp)
+![creation module screen 1](./screenshots/minibase/creation_module1.2.webp)
+![creation module screen 2](./screenshots/minibase/creation_module2.3.webp)
+![creation module screen 3](./screenshots/minibase/creation_module3.2.webp)
 
 **Data Importation**
 
 The import module (importation_module.py) requires a unified table structure that is provided in the Excel template (template.xlsx) and is the only one currently that supports the MiniBase system for importing data, and from which the first collectibles management was born.
 
-![importation module screen 1](screenshots/minibase/importation_module.webp)
-![importation module screen 2](screenshots/minibase/importation_module2.webp)
-![importation module screen 3](screenshots/minibase/importation_module3.webp)
+![importation module screen 1](./screenshots/minibase/importation_module.webp)
+![importation module screen 2](./screenshots/minibase/importation_module2.webp)
+![importation module screen 3](./screenshots/minibase/importation_module3.webp)
 
 **Data Exportation** 
 
 The export module (exportation_module.py) allows the entire database to be exported in three standard formats: CSV, JSON, and Excel File. This allows for use on other platforms or tools.
 
-![exportation module screen 1](screenshots/minibase/exportation_module.webp)
+![exportation module screen 1](./screenshots/minibase/exportation_module.webp)
 
 **Miniature Edition** 
 
 Once the characters have been entered into the database, you can edit their details again, add missing ones, or replace images from the editing module (edition_module.py).
 
-![edition module screen](screenshots/minibase/edition_module.webp)
+![edition module screen](./screenshots/minibase/edition_module.webp)
 ![edition module screen upload images](screenshots/minibase/edition_module2.webp)
 
 **Miniature Deletion**
 
 The deletion module (deletion_module.py) currently only handles deleting the selected miniature from the database.
 
-![deletion module screen 1](screenshots/minibase/deletion_module.webp)
-![deletion module screen 2](screenshots/minibase/deletion_module2.webp)
-![deletion module screen 3](screenshots/minibase/deletion_module3.webp)
+![deletion module screen 1](./screenshots/minibase/deletion_module.webp)
+![deletion module screen 2](./screenshots/minibase/deletion_module2.webp)
+![deletion module screen 3](./screenshots/minibase/deletion_module3.webp)
 
 **Schema View**
 
 Schema View Component: The schemaview_module.py allows visualization of the database tables created from the schema.sql file using the initialization module (initialize_db.py). It serves as a review tool to verify how data insertions are being made, the existing tables, and their relationships.
 
-![schema view module](screenshots/minibase/schemaview_module.webp)
+![schema view module](./screenshots/minibase/schemaview_module.webp)
 
 **Upcoming AI integrations for RPGs**
 
