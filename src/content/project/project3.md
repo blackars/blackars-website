@@ -6,7 +6,7 @@ abstract: "A poetic narrative experience where a scarred huntress seeks vengeanc
 pubDate: 2026-02-16
 category: "software"
 id: "3"
-image: "/momo-cover.webp"
+image: "./screenshots/momo-cover.webp"
 slug: "momotimehuntress"
 
 ---

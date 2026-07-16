@@ -34,7 +34,7 @@ Visit and explore the complete experience at:
 _Within NOXISTENCE, there are spaces where many other places bloom and where paths to complex existences trapped in this limbo can be found. These gardens are not isolated points; it is evident that something connects them. They are paths to everything that nonexistence captures here, but they are also trails that gradually unveil the secrets hidden within._  
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.png)  
+![Portals Garden](./screenshots/portalsgarden/portalsgarden.webp)  
 <br>
 
 Portals Garden 001 is the first cluster of experiences related to the narrative universe I introduced in the previous blog: **[ _"About NOXISTENCE"_](https://blackars.com/blog/post2)**. In this garden of portals, the exploration of stories behind landscapes, creatures, and many other aspects of the lore of this universe begins.  
@@ -49,10 +49,10 @@ It is a first staging and extension of my fictional universe and its transmedia 
 ## **Portals Garden**
 <br>
 
-![Portals Garden](screenshots/portalsgarden/portalsgarden.webp)  
+![Portals Garden](./screenshots/portalsgarden/portalsgarden.webp)  
 <br>
 
-![Instructions Modal](screenshots/portalsgarden/instructions.png)  
+![Instructions Modal](./screenshots/portalsgarden/instructions.webp)  
 <br>
 
 The first garden of portals shows us a glimpse of how interaction works to enter the experiences that bloom here.  
@@ -61,13 +61,13 @@ The first garden of portals shows us a glimpse of how interaction works to enter
 ## **Clean Squared Place**
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace.webp)  
+![Clean SquaredPlace](./screenshots/portalsgarden/cleansquaredplace.webp)  
 <br>
 
 This experience is the only one that is not in 3D. It consists of clearing the Squared Place of the entities trapped in it. Upon completion, a pattern is obtained to unlock another experience:  
 <br>
 
-![Clean SquaredPlace](screenshots/portalsgarden/cleansquaredplace2.png)  
+![Clean SquaredPlace](./screenshots/portalsgarden/cleansquaredplace2.webp)  
 <br>
 
 # **Nitrogenous Bases**
@@ -76,7 +76,7 @@ This experience is the only one that is not in 3D. It consists of clearing the S
 Once the access code is entered, we arrive at the molecular computer of nitrogenous bases. In this drag-and-drop experience, we organize the molecules into one of the 5 patterns corresponding to each of the experiences hidden in the code of life.  
 <br>
 
-![Nitrogenous Bases](screenshots/portalsgarden/nbases.webp)  
+![Nitrogenous Bases](./screenshots/portalsgarden/nbases.webp)  
 <br>
 
 # **Game Of Life**
@@ -85,7 +85,7 @@ Once the access code is entered, we arrive at the molecular computer of nitrogen
 This experience will not take you beyond itself—or will it? John Horton Conway’s traditional Game of Life is reinterpreted in 3D with my preferred aesthetic, offering a simple space for experimentation, reflection through what is visualized, and interpretations of these simple forms that appeal to something as complex as life.  
 <br>
 
-![Game of Life](screenshots/portalsgarden/gameoflife.webp)  
+![Game of Life](./screenshots/portalsgarden/gameoflife.webp)  
 <br>
 
 # **AnothEarth**
@@ -94,7 +94,7 @@ This experience will not take you beyond itself—or will it? John Horton Conway
 This is the main portal from which all experiences and websites related to the AnothEarth universe will be woven. Currently, it only links to the corresponding lore section on the main NOXISTENCE website.  
 <br>
 
-![AnothEarth](screenshots/portalsgarden/anothearth.webp)  
+![AnothEarth](./screenshots/portalsgarden/anothearth.webp)  
 <br>
 
 # **Maxkodia Planet**
@@ -103,7 +103,7 @@ This is the main portal from which all experiences and websites related to the A
 This experience works in a similar, if not identical, way to AnothEarth.  
 <br>
 
-![Maxkodia Planet](screenshots/portalsgarden/maxkodia.webp)  
+![Maxkodia Planet](./screenshots/portalsgarden/maxkodia.webp)  
 <br>
 
 # **Space Words**
@@ -112,7 +112,7 @@ This experience works in a similar, if not identical, way to AnothEarth.
 In this experience, we explore a glimpse of what a gaze into space captured in NOXISTENCE has to tell us about its captor.  
 <br>
 
-![Space Words](screenshots/portalsgarden/spacewords.webp)  
+![Space Words](./screenshots/portalsgarden/spacewords.webp)  
 <br>
 
 # **Deep Space Encounter**
@@ -121,13 +121,13 @@ In this experience, we explore a glimpse of what a gaze into space captured in N
 In this experience, we face one of the dangers of space—at the edge of death—to understand and confront the power of a circle…  
 <br>
 
-![Deep Sapce Encounter](screenshots/portalsgarden/deepspaceencounter.webp)  
+![Deep Sapce Encounter](./screenshots/portalsgarden/deepspaceencounter.webp)  
 <br>
 
 # **Gardhan Thinker**
 <br>
 
-![Gardhan Thinker](screenshots/portalsgarden/gardhanthinker.webp)  
+![Gardhan Thinker](./screenshots/portalsgarden/gardhanthinker.webp)  
 <br>
 
 Here we meet a thinker of the Gardhan species. Trapped within its thoughts, we can interact with this mind to open an experience that already begins to lead us into a dark corner of NOXISTENCE…  
@@ -136,7 +136,7 @@ Here we meet a thinker of the Gardhan species. Trapped within its thoughts, we c
 # **Human Thinker**
 <br>
 
-![Human Thinker](screenshots/portalsgarden/humanthinker.webp)  
+![Human Thinker](./screenshots/portalsgarden/humanthinker.webp)  
 <br>
 
 Here lies a human thinker, in a limbo of concepts, ideas, and visions of a reality difficult to grasp. What does the human mind have to reveal to us?  
