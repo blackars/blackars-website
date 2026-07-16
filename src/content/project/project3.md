@@ -42,22 +42,21 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 **Momo** — *The last huntress of a consumed world.* Fierce, scarred, and relentless. She carries the weight of a reality already erased by the Grey Gentlemen. She speaks to Cassiopeia as if reading her silence, finds beauty in ruins, and sharpens her grief into a blade.
 <br>
 
-![Momo Time Huntress](https://github.com/blackars/momo-time-huntress/blob/714634c605b0f283883301f149c21836407cd162/game/images/sprites/momo/momo_fb_neutral.webp)
+![Momo Time Huntress](https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/momo/momo_fb_neutral.webp?raw=true)
 
 <br>
 
 **Cassiopeia** — *A silent presence that speaks in symbols.* She never speaks — but Momo understands every silence. She traces mysterious symbols in the air, feels vibrations before anomalies arrive, and seems to know more than she lets on.
 <br>
 
-![Cassiopeia](https://github.com/blackars/momo-time-huntress/blob/714634c605b0f283883301f149c21836407cd162/game/images/sprites/casiopeia/cas_right.webp)
+![Cassiopeia](/https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/casiopeia/cas_right.webp?raw=true)
 
 <br>
 
 **The Grey Gentlemen Anomaly** — *They do not hunt like beasts. They calculate.* Beings from beyond reality that consume time itself. Each arrival leaves a crater. Each word is a distorted echo. They claim to be searching for something more powerful — or fleeing from it.
 <br>
 
-![The Grey Gentlemen Anomaly](https://github.com/blackars/momo-time-huntress/blob/714634c605b0f283883301f149c21836407cd162/game/images/sprites/grayg/grayg_fb_left.webp
-)
+![The Grey Gentlemen Anomaly](https://github.com/blackars/momo-time-huntress/blob/main/game/images/sprites/grayg/grayg_fb_left.webp?raw=true)
 
 <br>
 
