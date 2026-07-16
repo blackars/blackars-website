@@ -59,8 +59,6 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 
 # **Tech Stack**
 <br>
-## Technical Stack
-
 - **Engine:** Ren'Py 8.0+
 - **Resolution:** 1920×1080 (Full HD)
 - **Audio:** OGG Vorbis (ambient & SFX)
