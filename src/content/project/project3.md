@@ -20,7 +20,7 @@ Technologies: Ren'Py, Python, WebP, OGG Vorbis, WebM
 ![Momo Time Huntress Cover](/momo-cover.webp)
 <br>
 
-# **Momo: Time-Huntress**
+## **Momo: Time-Huntress**
 <br>
 
 _Within a world where time fractures and shadows arrive before their owners, Momo and her mysterious companion Cassiopeia cross enchanted forests toward a ruined castle._  
@@ -36,7 +36,7 @@ In a world where time fractures and shadows arrive before their owners, Momo and
 Between ruins swallowed by moss, rivers that hide their scent from pattern-tracking predators, and a castle that pulses with stolen seconds, Momo must confront not just the monsters that feed on time, but the truth of what they are — and what they've awakened.
 <br>
 
-# **Characters**
+## **Characters**
 <br>
 
 **Momo** — *The last huntress of a consumed world.* Fierce, scarred, and relentless. She carries the weight of a reality already erased by the Grey Gentlemen. She speaks to Cassiopeia as if reading her silence, finds beauty in ruins, and sharpens her grief into a blade.
@@ -46,7 +46,7 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 **The Grey Gentlemen Anomaly** — *They do not hunt like beasts. They calculate.* Beings from beyond reality that consume time itself. Each arrival leaves a crater. Each word is a distorted echo. They claim to be searching for something more powerful — or fleeing from it.
 <br>
 
-# **Features**
+## **Features**
 <br>
 
 - **Full HD Visuals** — hand-drawn backgrounds and sprites at 1920x1080.
@@ -57,8 +57,9 @@ Between ruins swallowed by moss, rivers that hide their scent from pattern-track
 - **Live2D-style Sprites** — multiple expressions and poses for each character.
 <br>
 
-# **Tech Stack**
+### **Tech Stack**
 <br>
+
 - **Engine:** Ren'Py 8.0+
 - **Resolution:** 1920×1080 (Full HD)
 - **Audio:** OGG Vorbis (ambient & SFX)
