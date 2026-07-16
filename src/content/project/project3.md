@@ -6,7 +6,7 @@ abstract: "A poetic narrative experience where a scarred huntress seeks vengeanc
 pubDate: 2026-02-16
 category: "software"
 id: "3"
-image: "./screenshots/momo-cover.webp"
+image: "/momo-cover.webp"
 slug: "momotimehuntress"
 
 ---
@@ -17,7 +17,7 @@ Technologies: Ren'Py, Python, WebP, OGG Vorbis, WebM
 * <a href="https://github.com/blackars/momo-time-huntress" target="_blank" rel="noopener noreferrer"><strong>→ Click here to view the code repository ←</strong></a>  
 <br>
 
-![Momo Time Huntress Cover](screenshots/momo-cover.webp)
+![Momo Time Huntress Cover](/momo-cover.webp)
 <br>
 
 # **Momo: Time-Huntress**
