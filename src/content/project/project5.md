@@ -15,7 +15,7 @@ Technologies: Python and SQLite, frameworks such as Tkinter, Pandas, and Pillow
 
 **MiniBase v1.0.0: Dynamic Management of Miniature Collectibles with Potential for AI and RPG.**
 
-![home screen](screenshots/home_screen.webp)
+![home screen](./screenshots/minibase/home_screen_empty.webp)
 
 * **[ → Here is the project code ←](https://github.com/blackars/MiniBase)**
 * **[ → & here an executable for Windows 10/11 ←](https://github.com/blackars/MiniBase-Distro)**
@@ -69,7 +69,7 @@ The export module (exportation_module.py) allows the entire database to be expor
 Once the characters have been entered into the database, you can edit their details again, add missing ones, or replace images from the editing module (edition_module.py).
 
 ![edition module screen](./screenshots/minibase/edition_module.webp)
-![edition module screen upload images](screenshots/minibase/edition_module2.webp)
+![edition module screen upload images](./screenshots/minibase/edition_module2.webp)
 
 **Miniature Deletion**
 
