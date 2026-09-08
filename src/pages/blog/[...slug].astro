@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import LayoutBlogPost from "../../layouts/LayoutBlogPost.astro";
 
 const { slug } = Astro.params;
 
@@ -8,8 +9,11 @@ if (slug === undefined) {
 }
 
 const posts = (await getCollection("blog")).sort(
-  (blogEntryA, blogEntryB) =>
-    blogEntryB.data.pubDate.getTime() - blogEntryA.data.pubDate.getTime()
+  (blogEntryA, blogEntryB) => {
+    const dateA = blogEntryA.data.pubDate ? blogEntryA.data.pubDate.getTime() : 0;
+    const dateB = blogEntryB.data.pubDate ? blogEntryB.data.pubDate.getTime() : 0;
+    return dateB - dateA;
+  }
 );
 
 const entry = posts.find((entry) => entry.slug === slug);
@@ -19,4 +23,11 @@ if (entry === undefined) {
 const { Content } = await entry.render();
 ---
 
-<Content />
+<LayoutBlogPost
+  title={entry.data.title}
+  description={entry.data.description}
+  pubDate={entry.data.pubDate ? entry.data.pubDate.toISOString() : ""}
+  minutesRead={entry.data.minutesRead ?? ""}
+>
+  <Content />
+</LayoutBlogPost>

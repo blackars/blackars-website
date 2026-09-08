@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const image = "{Astro.url.origin}/me.webp";
+const image = `${Astro.url.origin}/me.webp`;
 ---
 
 <!doctype html>
@@ -34,7 +34,7 @@ const image = "{Astro.url.origin}/me.webp";
     <link rel="preconnect" href="https://cdn.fontshare.com" />
   </head>
   <body
-    class="bg-gradient-to-r from-darkslate700 via-darkslate-100 to-darkslate-700   md:h-screen flex flex-col justify-center items-center"
+    class="bg-gradient-to-r from-darkslate-700 via-darkslate-100 to-darkslate-700   md:h-screen flex flex-col justify-center items-center"
   >
     <slot name="loader" />
     <slot />
