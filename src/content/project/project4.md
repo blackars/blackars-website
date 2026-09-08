@@ -19,7 +19,7 @@ Technologies: JavaScript, CSS, HTML, Canvas API, CSS Transforms & IntersectionOb
 
 <br>
 
-![System Overview](./screenshots/playableinterfacelab/overview.webp)
+<!-- ![System Overview](./screenshots/playableinterfacelab/overview.webp) -->
 <br>
 
 
@@ -34,7 +34,7 @@ Visit and explore the complete experience at:
 _A micro arcade laboratory—minigames, prototypes, and interactive surfaces exploring the web as a playable medium. Not a portfolio of finished things, but a workshop with the door left open: a place where the interface stops being a tool you use and becomes something you play._  
 <br>
 
-![Playable Interface Laboratory](./screenshots/playableinterfacelab/hub.webp)  
+<!-- ![Playable Interface Laboratory](./screenshots/playableinterfacelab/hub.webp) -->  
 <br>
 
 Playable Interface Laboratory is a living archive of **26 interactive experiments** built with pure vanilla HTML, CSS, and JavaScript—zero frameworks, zero build steps, no dependencies. It is where I house my experimentation with interfaces, minigames, and interaction straight from the browser.  
@@ -60,7 +60,7 @@ The Lab is organized into three families, each tagged for filtering so the archi
 Visual prototypes and interactive demos—surfaces where the browser becomes a canvas for motion, distortion, and reveal.  
 <br>
 
-![Experiences](./screenshots/playableinterfacelab/experiences.webp)  
+<!-- ![Experiences](./screenshots/playableinterfacelab/experiences.webp) -->  
 <br>
 
 - **ASCII Art** — A text-mask particle system that resolves characters into image.  
@@ -84,7 +84,7 @@ Visual prototypes and interactive demos—surfaces where the browser becomes a c
 Playable minigames with score, loop, and mechanics—the arcade wing of the Lab, where interaction sharpens into challenge.  
 <br>
 
-![Games](./screenshots/playableinterfacelab/games.webp)  
+<!-- ![Games](./screenshots/playableinterfacelab/games.webp) -->  
 <br>
 
 - **Dark Snake** — A cube-fold grid snake.  
@@ -107,7 +107,7 @@ Playable minigames with score, loop, and mechanics—the arcade wing of the Lab,
 Beyond experiences and games, several modules are conceived as reusable web components—elements meant to be lifted out of the Lab and dropped into other projects. The laboratory is, in this sense, both a place to play and a parts bin: every effect that proves itself here can become a building block elsewhere.  
 <br>
 
-![Elements](./screenshots/playableinterfacelab/elements.webp)  
+<!-- ![Elements](./screenshots/playableinterfacelab/elements.webp) -->  
 <br>
 
 # **The Web as a Playable Medium**
